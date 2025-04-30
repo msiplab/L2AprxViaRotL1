@@ -1,19 +1,37 @@
 # L2AprxViaRotL1
 
-This repository contains a set of M-files and files for FPGA implimentation used in the proposed 2-tuple $\ell$<sub>2</sub>-norm method.
+This repository contains the source code and supplementary materials for the paper:
 
-The file county provided this time has been verified to work in the following environment.
+**“RTL Evaluation of ℓ₂-Norm Approximation with Rotated ℓ₁-Norm for 2-Tuple Arrays”**  
+Shu Abe, Yuya Kodama, Hiroyoshi Yamada, and Shogo Muramatsu  
+*APSIPA Transactions on Signal and Information Processing, Vol. 14, e3, 2025*  
+[https://doi.org/10.1561/116.20240068](https://doi.org/10.1561/116.20240068)
 
-- OS
-  - Linux
-- MATLAB
-  - R2022a
-- tool
-  - Vitis Model Composer 2022b
- 
-## Experimental Environments
+---
 
-### Vitis Model Composer
+## 📌 Overview
+
+This project provides a practical implementation of a novel method for approximating the ℓ₂-norm of 2-dimensional data using a rotated ℓ₁-norm. The approximation improves computational efficiency while maintaining high accuracy, which is especially useful for fixed-point arithmetic.
+
+The key idea is to rotate the coordinate system to align the ℓ₁-norm with the ℓ₂-norm contour as closely as possible.
+
+---
+
+## 🗃️ Contents
+
+- `code/` — Core implementation (MATLAB)
+- `data/` — (Optional) Sample inputs
+- `results` - (Optional) Sample results
+- `LICENSE` — License information (default: MIT)
+
+---
+
+## 🧪 Getting Started
+
+### Requirements
+
+- MATLAB R2022b+
+- Vitis Model Composer 2022b
 
 Vitis™ Model Composer is a model-based design tool for rapid design exploration in the MathWorks MATLAB® and Simulink® environments. Model Composer can be purchased as an add-on license for the Vivado™ ML Standard/Enterprise and Vitis development environments.
 
