@@ -76,7 +76,7 @@ max12 = max(tmp12,[],'all');
 tmp16 = abs(stexct(x+1i*y,tau)-staprx16(x+1i*y,tau));
 max16 = max(tmp16,[],'all');
 
-fileID = fopen("image/Softthr/diffs.txt",'w',"native","UTF-8");
+fileID = fopen(imagesavefolder + "diffs.txt",'w',"native","UTF-8");
 text1 = sprintf("l1_diff = %f\n",max04);
 fwrite(fileID,text1,"char");
 text2 = sprintf("l2_diff = %f\n",max08);
