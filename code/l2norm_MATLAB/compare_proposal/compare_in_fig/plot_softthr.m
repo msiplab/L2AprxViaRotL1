@@ -5,7 +5,7 @@ close all;
 addpath('../../l2norm/');
 
 colormapchoice = 'parula';
-imagesavefolder = "image/Softthr/";
+imagesavefolder = "../../../../results/image/Softthr/";
 labelsize = 45;
 tau = 0.5;
 
