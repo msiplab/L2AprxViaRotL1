@@ -3,7 +3,7 @@ clc;
 close all;
 
 addpath('../../l2norm/');
-imagesavefolder = "image/l2norm/";
+imagesavefolder = "../../../../results/image/l2norm/";
 
 resolution = 300;
 
