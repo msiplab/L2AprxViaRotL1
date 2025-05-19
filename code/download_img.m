@@ -1,7 +1,7 @@
 function download_img(isVerbose)
 % DOWNLOAD_IMG 
 %
-% Copyright (c) Shogo MURAMATSU, 2018-2023
+% Copyright (c) Shogo MURAMATSU, 2018-2025
 % All rights reserved.
 %
 
@@ -23,6 +23,7 @@ if exist(dstdir,'dir') == 7
                 ...fname));
                 "https://www.r0k.us/graphics/kodak/kodak/"+fname);                
             imwrite(img,fullfile(dstdir,fname))
+            imwrite(imresize(rgb2gray(img),[256 256]),fullfile(dstdir,strrep(fname,".png",".tif")))
             if isVerbose
                 fprintf('Downloaded and saved %s in %s\n',fname,dstdir);
             end
