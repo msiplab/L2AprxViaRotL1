@@ -34,6 +34,7 @@ The key idea is to rotate the coordinate system to align the ℓ₁-norm with th
 ### Requirements
 
 - MATLAB R2022b+
+-- Add on: [ZoomPlot](https://jp.mathworks.com/matlabcentral/fileexchange/93845-zoomplot?s_eid=PSM_29435)
 - Vitis Model Composer 2022b
 
 Vitis™ Model Composer is a model-based design tool for rapid design exploration in the MathWorks MATLAB® and Simulink® environments. Model Composer can be purchased as an add-on license for the Vivado™ ML Standard/Enterprise and Vitis development environments.
