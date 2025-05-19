@@ -3,7 +3,7 @@ clc;
 close all;
 
 addpath('../../l2norm/');
-imagesavefolder = "image/l2norm/";
+imagesavefolder = "../../../../results/image/l2norm/";
 
 resolution = 300;
 
@@ -38,7 +38,7 @@ exportgraphics(fig_handle,imagesavefolder+'l2_4_diff.png',"Resolution",resolutio
 
 %%
 
-fileID = fopen("image/l2norm/diffs.txt",'w',"native","UTF-8");
+fileID = fopen(imagesavefolder+"diffs.txt",'w',"native","UTF-8");
 
 text1 = sprintf("l1_diff = %f\n",max(abs(l2_1-l2_ex),[],'all'));
 fwrite(fileID,text1,"char");
