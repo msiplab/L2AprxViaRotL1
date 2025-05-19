@@ -4,7 +4,7 @@ close all;
 
 addpath("../module/");
 %load("./TEST_DATA/images.mat");
-load(mainFolder+"/results/l2norm_tv_images.mat")
+load(mainFolder+"/../results/l2norm_tv_images.mat")
 
 g0 = [0 1 0; 0 -1 0; 0 0 0 ]; % Vetical difference
 g1 = rot90(g0);  % Horizontal difference
@@ -91,22 +91,22 @@ for n = niter
     imshow(out.orgImg.signals.values);
     drawnow;
     %exportgraphics(f,'result/TV_orgImg.png');
-    exportgraphics(f,mainFolder+"/results/TV_orgImg.png");
+    exportgraphics(f,mainFolder+"/../results/TV_orgImg.png");
     imshow(out.noisy.signals.values);
     drawnow;
     %exportgraphics(f,'result/TV_noisy.png');
-    exportgraphics(f,mainFolder+"/results/TV_noisy.png");
+    exportgraphics(f,mainFolder+"/../results/TV_noisy.png");
     if n == 1
         imshow(out.tv_restored.signals.values);
         drawnow;
         %exportgraphics(f,'result/TV_restored_exact.png');
-        exportgraphics(f,mainFolder+"results/TV_restored_exact.png");
+        exportgraphics(f,mainFolder+"/../results/TV_restored_exact.png");
         %exportgraphics(f,'result/TV_restored_exact.pdf','BackgroundColor','none','ContentType','vector');
-        exportgraphics(f,mainFolder+"results/TV_restored_exact.pdf",'BackgroundColor','none','ContentType','vector');
+        exportgraphics(f,mainFolder+"/../results/TV_restored_exact.pdf",'BackgroundColor','none','ContentType','vector');
         data = out.tv_restored.signals.values;
-        save(mainFolder+"/results/TV_restored_exact.mat",'data')
+        save(mainFolder+"/../results/TV_restored_exact.mat",'data')
     
-        fileID = fopen(mainFolder+"/results/mse.txt",'w',"native","UTF-8");
+        fileID = fopen(mainFolder+"/../results/mse.txt",'w',"native","UTF-8");
 %         text0 = sprintf("\n----\n");
 %         fwrite(fileID,text0,"char");
         mse = out.mse.signals.values;
@@ -121,13 +121,13 @@ for n = niter
         drawnow;
         if n == 2
             %exportgraphics(f,'result/TV_restored_sq2.png');
-            exportgraphics(f,mainFolder+"results/TV_restored_sq2.png");
+            exportgraphics(f,mainFolder+"/../results/TV_restored_sq2.png");
             %exportgraphics(f,'result/TV_restored_sq2.pdf','BackgroundColor','none','ContentType','vector');
-            exportgraphics(f,mainFolder+"results/TV_restored_sq2.pdf",'BackgroundColor','none','ContentType','vector');
+            exportgraphics(f,mainFolder+"/../results/TV_restored_sq2.pdf",'BackgroundColor','none','ContentType','vector');
             data = out.tv_restored_sq.signals.values;
-            save(mainFolder+"/results/TV_restored_sq2.mat",'data')
+            save(mainFolder+"/../results/TV_restored_sq2.mat",'data')
     
-            fileID = fopen(mainFolder+"/results/mse.txt",'w',"native","UTF-8");
+            fileID = fopen(mainFolder+"/../results/mse.txt",'w',"native","UTF-8");
             mse = out.mse.signals.values;
             text1 = sprintf("PropoN2_mse  = %f\n",mse);
             fwrite(fileID,text1,"char");
@@ -137,13 +137,13 @@ for n = niter
             fclose(fileID);
         elseif n == 3
             %exportgraphics(f,'result/TV_restored_sq3.png');
-            exportgraphics(f,mainFolder+"/results/TV_restored_sq3.png");
+            exportgraphics(f,mainFolder+"/../results/TV_restored_sq3.png");
             %exportgraphics(f,'result/TV_restored_sq3.pdf','BackgroundColor','none','ContentType','vector');
-            exportgraphics(f,mainFolder+"/results/TV_restored_sq3.pdf",'BackgroundColor','none','ContentType','vector');
+            exportgraphics(f,mainFolder+"/../results/TV_restored_sq3.pdf",'BackgroundColor','none','ContentType','vector');
             data = out.tv_restored_sq.signals.values;
-            save(mainFolder+"/results/TV_restored_sq3.mat",'data')
+            save(mainFolder+"/../results/TV_restored_sq3.mat",'data')
     
-            fileID = fopen(mainFolder+"/results/mse.txt",'w',"native","UTF-8");
+            fileID = fopen(mainFolder+"/../results/mse.txt",'w',"native","UTF-8");
             mse = out.mse.signals.values;
             text1 = sprintf("PropoN3_mse  = %f\n",mse);
             fwrite(fileID,text1,"char");
@@ -153,13 +153,13 @@ for n = niter
             fclose(fileID);
         elseif n == 4
             %exportgraphics(f,'result/TV_restored_sq4.png');
-            exportgraphics(f,mainFolder+"/results/TV_restored_sq4.png");
+            exportgraphics(f,mainFolder+"/../results/TV_restored_sq4.png");
             %exportgraphics(f,'result/TV_restored_sq4.pdf','BackgroundColor','none','ContentType','vector');
-            exportgraphics(f,mailFolder+"/results/TV_restored_sq4.pdf",'BackgroundColor','none','ContentType','vector');
+            exportgraphics(f,mainFolder+"/../results/TV_restored_sq4.pdf",'BackgroundColor','none','ContentType','vector');
             data = out.tv_restored_sq.signals.values;
-            save(mainFolder+"/results/TV_restored_sq4.mat",'data')
+            save(mainFolder+"/../results/TV_restored_sq4.mat",'data')
     
-            fileID = fopen(mainFolder+"/results/mse.txt",'w',"native","UTF-8");
+            fileID = fopen(mainFolder+"/../results/mse.txt",'w',"native","UTF-8");
             mse = out.mse.signals.values;
             text1 = sprintf("PropoN4_mse  = %f\n",mse);
             fwrite(fileID,text1,"char");
@@ -172,11 +172,11 @@ for n = niter
         imshow(out.tv_restored_sq.signals.values);
         drawnow;
         %exportgraphics(f,'result/TV_restored_pca10.png');
-        exportgraphics(f,mainFolder+"/results/TV_restored_pca10.png");
+        exportgraphics(f,mainFolder+"/../results/TV_restored_pca10.png");
         data = out.tv_restored_sq.signals.values;
-        save(mainFolder+"/results/TV_restored_pca10.mat",'data')
+        save(mainFolder+"/../results/TV_restored_pca10.mat",'data')
 
-        fileID = fopen(mainFolder+"/results/mse.txt",'w',"native","UTF-8");
+        fileID = fopen(mainFolder+"/../results/mse.txt",'w',"native","UTF-8");
         mse = out.mse.signals.values;
         text1 = sprintf("PCA10_mse    = %f\n",mse);
         fwrite(fileID,text1,"char");
@@ -188,11 +188,11 @@ for n = niter
         imshow(out.tv_restored_sq.signals.values);
         drawnow;
         %exportgraphics(f,'result/TV_restored_pca50.png');
-        exportgraphics(f,mainFolder+"/results/TV_restored_pca50.png");
+        exportgraphics(f,mainFolder+"/../results/TV_restored_pca50.png");
         data = out.tv_restored_sq.signals.values;
-        save(mainFolder+"/results/TV_restored_pca50.mat",'data')
+        save(mainFolder+"/../results/TV_restored_pca50.mat",'data')
 
-        fileID = fopen(mainFolder+"/results/mse.txt",'w',"native","UTF-8");
+        fileID = fopen(mainFolder+"/../results/mse.txt",'w',"native","UTF-8");
         mse = out.mse.signals.values;
         text1 = sprintf("PCA50_mse    = %f\n",mse);
         fwrite(fileID,text1,"char");
@@ -204,11 +204,11 @@ for n = niter
         imshow(out.tv_restored_sq.signals.values);
         drawnow;
         %exportgraphics(f,'result/TV_restored_cordic.png');
-        exportgraphics(f,mainFolder+"/results/TV_restored_cordic.png");
+        exportgraphics(f,mainFolder+"/../results/TV_restored_cordic.png");
         data = out.tv_restored_sq.signals.values;
-        save(mainFolder+"/results/TV_restored_cordic.mat",'data')
+        save(mainFolder+"/../results/TV_restored_cordic.mat",'data')
 
-        fileID = fopen(mainFolder+"/results/mse.txt",'w',"native","UTF-8");
+        fileID = fopen(mainFolder+"/../results/mse.txt",'w',"native","UTF-8");
         mse = out.mse.signals.values;
         text1 = sprintf("CORDIC_mse    = %f\n",mse);
         fwrite(fileID,text1,"char");

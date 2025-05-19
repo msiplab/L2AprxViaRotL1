@@ -97,10 +97,13 @@ title('pixel loss')
 % exportgraphics(f,'./TV_noisy2.pdf','BackgroundColor','none','ContentType','vector');
 % close(f);
 %% SAVE NOISY IMAGE
-csvwrite('256cameraman.csv',img1);
-csvwrite('256noisecameraman.csv',real(noisy));
-csvwrite('256pixelloss.csv',pixel_loss);
-save('images.mat',"orgImg","pixel_loss","noisy")
+%csvwrite('256cameraman.csv',img1);
+%csvwrite('256noisecameraman.csv',real(noisy));
+%csvwrite('256pixelloss.csv',pixel_loss);
+writematrix(img1,mainFolder+"/../results/256cameraman.csv");
+writematrix(real(noisy),mainFolder+"/../results/256noisecameraman.csv");
+writematrix(pixel_loss,mainFolder+"/../results/256pixelloss.csv");
+save(mainFolder+"/../results/l2norm_tv_images.mat","orgImg","pixel_loss","noisy")
 
 % csvwrite('2kodim01.csv',orgImg);
 % csvwrite('2noisekodim01.csv',real(noisy));
