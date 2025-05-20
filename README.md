@@ -24,7 +24,7 @@ The key idea is to rotate the coordinate system to align the ℓ₁-norm with th
 
 - `code/` — Core implementation (MATLAB/Simulink)
 - `data/` — Sample data
-- `results/` - Sample results
+- `results/` - Destination for reproducible results
 - `LICENSE` — License information (default: MIT)
 
 ---
