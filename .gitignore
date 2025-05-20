@@ -41,5 +41,4 @@ codegen/
 *.pdf
 
 #
-#!/data/
 !/results/
