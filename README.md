@@ -23,8 +23,8 @@ The key idea is to rotate the coordinate system to align the ℓ₁-norm with th
 ## 🗃️ Contents
 
 - `code/` — Core implementation (MATLAB/Simulink)
-- `data/` — Sample inputs
-- `results/` - (Optional) Sample results
+- `data/` — Sample data
+- `results/` - Sample results
 - `LICENSE` — License information (default: MIT)
 
 ---
