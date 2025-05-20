@@ -42,3 +42,21 @@ codegen/
 
 #
 !/results/
+
+# Vivado temporary files
+*.jou
+*.log
+*.str
+*.pb
+*.xml
+*.html
+*.ltx
+*.dcp
+*.bgn
+*.cache/
+*.runs/
+*.sim/
+*.ip_user_files/
+.hw/
+.webtalk/
+.Xil/
