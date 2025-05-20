@@ -1,0 +1,47 @@
+{
+  'Line_100' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_struct/subsystem16bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_nop_fixpt16/Subsystem16bit/Mult2'
+  },
+  'Line_134' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_struct/subsystem16bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_nop_fixpt16/Subsystem16bit/addsub1'
+  },
+  'Line_163' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_struct/subsystem16bit',
+    'Instance' => 'subsystem16bit',
+    'SimulinkInstance' => 'cordic_nop_fixpt16/Subsystem16bit'
+  },
+  'Line_184' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_203' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_default_clock_driver',
+    'Instance' => 'cordic_nop_fixpt16_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_210' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_struct',
+    'Instance' => 'cordic_nop_fixpt16_struct',
+    'SimulinkInstance' => 'cordic_nop_fixpt16'
+  },
+  'Line_29' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_struct/subsystem16bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_nop_fixpt16/Subsystem16bit/CORDIC16'
+  },
+  'Line_35' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_struct/subsystem16bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_nop_fixpt16/Subsystem16bit/Constant'
+  },
+  'Line_64' => {
+    'CodeInstance' => 'cordic_nop_fixpt16_struct/subsystem16bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_nop_fixpt16/Subsystem16bit/Mult1'
+  }
+}

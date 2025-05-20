@@ -1,0 +1,2433 @@
+//-----------------------------------------------------------------
+// System Generator version 2022.1 Verilog source file.
+//
+// Copyright(C) 2022 by Xilinx, Inc.  All rights reserved.  This
+// text/file contains proprietary, confidential information of Xilinx,
+// Inc., is distributed under license from Xilinx, Inc., and may be used,
+// copied and/or disclosed only pursuant to the terms of a valid license
+// agreement with Xilinx, Inc.  Xilinx hereby grants you a license to use
+// this text/file solely for design, simulation, implementation and
+// creation of design files limited to Xilinx devices or technologies.
+// Use with non-Xilinx devices or technologies is expressly prohibited
+// and immediately terminates your license unless covered by a separate
+// agreement.
+//
+// Xilinx is providing this design, code, or information "as is" solely
+// for use in developing programs and solutions for Xilinx devices.  By
+// providing this design, code, or information as one possible
+// implementation of this feature, application or standard, Xilinx is
+// making no representation that this implementation is free from any
+// claims of infringement.  You are responsible for obtaining any rights
+// you may require for your implementation.  Xilinx expressly disclaims
+// any warranty whatsoever with respect to the adequacy of the
+// implementation, including but not limited to warranties of
+// merchantability or fitness for a particular purpose.
+//
+// Xilinx products are not intended for use in life support appliances,
+// devices, or systems.  Use in such applications is expressly prohibited.
+//
+// Any modifications that are made to the source code are done at the user's
+// sole risk and will be unsupported.
+//
+// This copyright and support notice must be retained as part of this
+// text at all times.  (c) Copyright 1995-2022 Xilinx, Inc.  All rights
+// reserved.
+//-----------------------------------------------------------------
+
+`include "conv_pkg.v"
+`timescale 1 ns / 10 ps
+module sysgen_concat_71e5a69c09 (
+  input [(1 - 1):0] in0,
+  input [(1 - 1):0] in1,
+  input [(1 - 1):0] in2,
+  input [(1 - 1):0] in3,
+  input [(1 - 1):0] in4,
+  input [(1 - 1):0] in5,
+  input [(1 - 1):0] in6,
+  input [(1 - 1):0] in7,
+  input [(1 - 1):0] in8,
+  input [(1 - 1):0] in9,
+  input [(1 - 1):0] in10,
+  input [(1 - 1):0] in11,
+  input [(1 - 1):0] in12,
+  input [(1 - 1):0] in13,
+  input [(1 - 1):0] in14,
+  input [(1 - 1):0] in15,
+  input [(1 - 1):0] in16,
+  input [(1 - 1):0] in17,
+  input [(1 - 1):0] in18,
+  input [(1 - 1):0] in19,
+  input [(1 - 1):0] in20,
+  input [(1 - 1):0] in21,
+  input [(1 - 1):0] in22,
+  input [(1 - 1):0] in23,
+  input [(1 - 1):0] in24,
+  input [(1 - 1):0] in25,
+  input [(1 - 1):0] in26,
+  output [(27 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire in0_1_23;
+  wire in1_1_27;
+  wire in2_1_31;
+  wire in3_1_35;
+  wire in4_1_39;
+  wire in5_1_43;
+  wire in6_1_47;
+  wire in7_1_51;
+  wire in8_1_55;
+  wire in9_1_59;
+  wire in10_1_63;
+  wire in11_1_68;
+  wire in12_1_73;
+  wire in13_1_78;
+  wire in14_1_83;
+  wire in15_1_88;
+  wire in16_1_93;
+  wire in17_1_98;
+  wire in18_1_103;
+  wire in19_1_108;
+  wire in20_1_113;
+  wire in21_1_118;
+  wire in22_1_123;
+  wire in23_1_128;
+  wire in24_1_133;
+  wire in25_1_138;
+  wire in26_1_143;
+  wire [(27 - 1):0] y_2_1_concat;
+  assign in0_1_23 = in0;
+  assign in1_1_27 = in1;
+  assign in2_1_31 = in2;
+  assign in3_1_35 = in3;
+  assign in4_1_39 = in4;
+  assign in5_1_43 = in5;
+  assign in6_1_47 = in6;
+  assign in7_1_51 = in7;
+  assign in8_1_55 = in8;
+  assign in9_1_59 = in9;
+  assign in10_1_63 = in10;
+  assign in11_1_68 = in11;
+  assign in12_1_73 = in12;
+  assign in13_1_78 = in13;
+  assign in14_1_83 = in14;
+  assign in15_1_88 = in15;
+  assign in16_1_93 = in16;
+  assign in17_1_98 = in17;
+  assign in18_1_103 = in18;
+  assign in19_1_108 = in19;
+  assign in20_1_113 = in20;
+  assign in21_1_118 = in21;
+  assign in22_1_123 = in22;
+  assign in23_1_128 = in23;
+  assign in24_1_133 = in24;
+  assign in25_1_138 = in25;
+  assign in26_1_143 = in26;
+  assign y_2_1_concat = {in0_1_23, in1_1_27, in2_1_31, in3_1_35, in4_1_39, in5_1_43, in6_1_47, in7_1_51, in8_1_55, in9_1_59, in10_1_63, in11_1_68, in12_1_73, in13_1_78, in14_1_83, in15_1_88, in16_1_93, in17_1_98, in18_1_103, in19_1_108, in20_1_113, in21_1_118, in22_1_123, in23_1_128, in24_1_133, in25_1_138, in26_1_143};
+  assign y = y_2_1_concat;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_f88957f849 (
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 1'b1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_c2acca6c06 (
+  output [(4 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 4'b0000;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_9664af1a01 (
+  output [(4 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 4'b0001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_ddeb300a7b (
+  output [(6 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 6'b010010;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_8c38918104 (
+  output [(10 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 10'b0000000001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_mux_a137c5f4d3 (
+  input [(1 - 1):0] sel,
+  input [(4 - 1):0] d0,
+  input [(4 - 1):0] d1,
+  output [(4 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire sel_1_20;
+  wire [(4 - 1):0] d0_1_24;
+  wire [(4 - 1):0] d1_1_27;
+  wire [(1 - 1):0] sel_internal_2_1_convert;
+  reg [(4 - 1):0] unregy_join_6_1;
+  assign sel_1_20 = sel;
+  assign d0_1_24 = d0;
+  assign d1_1_27 = d1;
+  assign sel_internal_2_1_convert = {sel_1_20};
+  always @(d0_1_24 or d1_1_27 or sel_internal_2_1_convert)
+    begin:proc_switch_6_1
+      case (sel_internal_2_1_convert)
+        1'b0 :
+          begin
+            unregy_join_6_1 = d0_1_24;
+          end
+        default:
+          begin
+            unregy_join_6_1 = d1_1_27;
+          end
+      endcase
+    end
+  assign y = unregy_join_6_1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_negate_d04433529f (
+  input [(5 - 1):0] ip,
+  output [(6 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(5 - 1):0] ip_18_25;
+  localparam signed [(6 - 1):0] const_value = 6'sb000000;
+  reg signed [(6 - 1):0] op_mem_48_20[0:(1 - 1)];
+  initial
+    begin
+      op_mem_48_20[0] = 6'b000000;
+    end
+  wire signed [(6 - 1):0] op_mem_48_20_front_din;
+  wire signed [(6 - 1):0] op_mem_48_20_back;
+  wire op_mem_48_20_push_front_pop_back_en;
+  localparam [(1 - 1):0] const_value_x_000000 = 1'b1;
+  localparam [(1 - 1):0] const_value_x_000001 = 1'b0;
+  wire signed [(6 - 1):0] cast_35_24;
+  wire signed [(6 - 1):0] internal_ip_35_9_neg;
+  reg signed [(6 - 1):0] internal_ip_join_30_1;
+  localparam signed [(6 - 1):0] const_value_x_000002 = 6'sb000000;
+  assign ip_18_25 = ip;
+  assign op_mem_48_20_back = op_mem_48_20[0];
+  always @(posedge clk)
+    begin:proc_op_mem_48_20
+      integer i;
+      if (((ce == 1'b1) && (op_mem_48_20_push_front_pop_back_en == 1'b1)))
+        begin
+          op_mem_48_20[0] <= op_mem_48_20_front_din;
+        end
+    end
+  assign cast_35_24 = {{1{ip_18_25[4]}}, ip_18_25[4:0]};
+  assign internal_ip_35_9_neg = -cast_35_24;
+  always @(internal_ip_35_9_neg)
+    begin:proc_if_30_1
+      if (1'b0)
+        begin
+          internal_ip_join_30_1 = const_value_x_000002;
+        end
+      else 
+        begin
+          internal_ip_join_30_1 = internal_ip_35_9_neg;
+        end
+    end
+  assign op_mem_48_20_push_front_pop_back_en = 1'b0;
+  assign op = internal_ip_join_30_1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_20b5517050 (
+  input [(27 - 1):0] a,
+  input [(27 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(27 - 1):0] a_1_31;
+  wire signed [(27 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire signed [(28 - 1):0] cast_22_12;
+  wire signed [(28 - 1):0] cast_22_17;
+  wire result_22_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign cast_22_12 = {a_1_31[26:0], 1'b0};
+  assign cast_22_17 = {{1{b_1_34[26]}}, b_1_34[26:0]};
+  assign result_22_3_rel = cast_22_12 >= cast_22_17;
+  assign op = result_22_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_scale_624c26b24e (
+  input [(27 - 1):0] ip,
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire [(27 - 1):0] ip_17_23;
+  localparam signed [(7 - 1):0] const_value = 7'sb0011010;
+  assign ip_17_23 = ip;
+  assign op = ip_17_23;
+endmodule
+`timescale 1 ns / 10 ps
+
+module  abslut10_fixpt8_32_xlslice  (x, y);
+
+//Parameter Definitions
+parameter new_msb= 9;
+parameter new_lsb= 1;
+parameter x_width= 16;
+parameter y_width= 8;
+
+//Port Declartions
+input [x_width-1:0] x;
+output [y_width-1:0] y;
+
+assign y = x[new_msb:new_lsb];
+
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_138fd74f53 (
+  input [(27 - 1):0] a,
+  input [(27 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(27 - 1):0] a_1_31;
+  wire signed [(27 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire result_16_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign result_16_3_rel = a_1_31 < b_1_34;
+  assign op = result_16_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_d0f13ff3d4 (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b100000000000000000000000000;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_c803187903 (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b100111000111000111000111001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_9ec0ca4917 (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b101110001110001110001110010;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_0a28b6379c (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b110101010101010101010101011;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_f32db84b2f (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b111100011100011100011100100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_991a0f441f (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b000011100011100011100011100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_fbfc9ffcaf (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b001010101010101010101010101;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_f215b6c304 (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b010001110001110001110001110;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_26ba4fd56d (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b011000111000111000111000111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_be6f91bb7a (
+  output [(27 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 27'b011111111111111111111111111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_mux_8b6c245434 (
+  input [(1 - 1):0] sel,
+  input [(27 - 1):0] d0,
+  input [(27 - 1):0] d1,
+  output [(27 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire sel_1_20;
+  wire [(27 - 1):0] d0_1_24;
+  wire [(27 - 1):0] d1_1_27;
+  wire [(1 - 1):0] sel_internal_2_1_convert;
+  reg [(27 - 1):0] unregy_join_6_1;
+  assign sel_1_20 = sel;
+  assign d0_1_24 = d0;
+  assign d1_1_27 = d1;
+  assign sel_internal_2_1_convert = {sel_1_20};
+  always @(d0_1_24 or d1_1_27 or sel_internal_2_1_convert)
+    begin:proc_switch_6_1
+      case (sel_internal_2_1_convert)
+        1'b0 :
+          begin
+            unregy_join_6_1 = d0_1_24;
+          end
+        default:
+          begin
+            unregy_join_6_1 = d1_1_27;
+          end
+      endcase
+    end
+  assign y = unregy_join_6_1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_concat_845f8cc7f5 (
+  input [(1 - 1):0] in0,
+  input [(1 - 1):0] in1,
+  input [(1 - 1):0] in2,
+  input [(1 - 1):0] in3,
+  input [(1 - 1):0] in4,
+  input [(1 - 1):0] in5,
+  input [(1 - 1):0] in6,
+  input [(1 - 1):0] in7,
+  input [(1 - 1):0] in8,
+  input [(1 - 1):0] in9,
+  input [(1 - 1):0] in10,
+  input [(1 - 1):0] in11,
+  input [(1 - 1):0] in12,
+  input [(1 - 1):0] in13,
+  input [(1 - 1):0] in14,
+  input [(1 - 1):0] in15,
+  input [(1 - 1):0] in16,
+  input [(1 - 1):0] in17,
+  input [(1 - 1):0] in18,
+  input [(1 - 1):0] in19,
+  input [(1 - 1):0] in20,
+  input [(1 - 1):0] in21,
+  input [(1 - 1):0] in22,
+  input [(1 - 1):0] in23,
+  input [(1 - 1):0] in24,
+  input [(1 - 1):0] in25,
+  input [(1 - 1):0] in26,
+  input [(1 - 1):0] in27,
+  output [(28 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire in0_1_23;
+  wire in1_1_27;
+  wire in2_1_31;
+  wire in3_1_35;
+  wire in4_1_39;
+  wire in5_1_43;
+  wire in6_1_47;
+  wire in7_1_51;
+  wire in8_1_55;
+  wire in9_1_59;
+  wire in10_1_63;
+  wire in11_1_68;
+  wire in12_1_73;
+  wire in13_1_78;
+  wire in14_1_83;
+  wire in15_1_88;
+  wire in16_1_93;
+  wire in17_1_98;
+  wire in18_1_103;
+  wire in19_1_108;
+  wire in20_1_113;
+  wire in21_1_118;
+  wire in22_1_123;
+  wire in23_1_128;
+  wire in24_1_133;
+  wire in25_1_138;
+  wire in26_1_143;
+  wire in27_1_148;
+  wire [(28 - 1):0] y_2_1_concat;
+  assign in0_1_23 = in0;
+  assign in1_1_27 = in1;
+  assign in2_1_31 = in2;
+  assign in3_1_35 = in3;
+  assign in4_1_39 = in4;
+  assign in5_1_43 = in5;
+  assign in6_1_47 = in6;
+  assign in7_1_51 = in7;
+  assign in8_1_55 = in8;
+  assign in9_1_59 = in9;
+  assign in10_1_63 = in10;
+  assign in11_1_68 = in11;
+  assign in12_1_73 = in12;
+  assign in13_1_78 = in13;
+  assign in14_1_83 = in14;
+  assign in15_1_88 = in15;
+  assign in16_1_93 = in16;
+  assign in17_1_98 = in17;
+  assign in18_1_103 = in18;
+  assign in19_1_108 = in19;
+  assign in20_1_113 = in20;
+  assign in21_1_118 = in21;
+  assign in22_1_123 = in22;
+  assign in23_1_128 = in23;
+  assign in24_1_133 = in24;
+  assign in25_1_138 = in25;
+  assign in26_1_143 = in26;
+  assign in27_1_148 = in27;
+  assign y_2_1_concat = {in0_1_23, in1_1_27, in2_1_31, in3_1_35, in4_1_39, in5_1_43, in6_1_47, in7_1_51, in8_1_55, in9_1_59, in10_1_63, in11_1_68, in12_1_73, in13_1_78, in14_1_83, in15_1_88, in16_1_93, in17_1_98, in18_1_103, in19_1_108, in20_1_113, in21_1_118, in22_1_123, in23_1_128, in24_1_133, in25_1_138, in26_1_143, in27_1_148};
+  assign y = y_2_1_concat;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_6381ac4359 (
+  input [(28 - 1):0] a,
+  input [(28 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(28 - 1):0] a_1_31;
+  wire signed [(28 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire signed [(29 - 1):0] cast_22_12;
+  wire signed [(29 - 1):0] cast_22_17;
+  wire result_22_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign cast_22_12 = {a_1_31[27:0], 1'b0};
+  assign cast_22_17 = {{1{b_1_34[27]}}, b_1_34[27:0]};
+  assign result_22_3_rel = cast_22_12 >= cast_22_17;
+  assign op = result_22_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_scale_2a9887cf7e (
+  input [(28 - 1):0] ip,
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire [(28 - 1):0] ip_17_23;
+  localparam signed [(7 - 1):0] const_value = 7'sb0011011;
+  assign ip_17_23 = ip;
+  assign op = ip_17_23;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_dadb20437f (
+  input [(28 - 1):0] a,
+  input [(28 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(28 - 1):0] a_1_31;
+  wire signed [(28 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire result_16_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign result_16_3_rel = a_1_31 < b_1_34;
+  assign op = result_16_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_34fcbce6bf (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b1000000000000000000000000000;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_354e6eb4e3 (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b1001110001110001110001110010;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_c917f7dab3 (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b1011100011100011100011100100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_bc40edf05d (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b1101010101010101010101010101;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_2e6500a7c2 (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b1111000111000111000111000111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_86fb6d96a1 (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b0000111000111000111000111001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_2e97589eda (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b0010101010101010101010101011;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_a813020fa3 (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b0100011100011100011100011100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_92bf370098 (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b0110001110001110001110001110;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_e0aea59a07 (
+  output [(28 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 28'b0111111111111111111111111111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_mux_3d15b4ac9b (
+  input [(1 - 1):0] sel,
+  input [(28 - 1):0] d0,
+  input [(28 - 1):0] d1,
+  output [(28 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire sel_1_20;
+  wire [(28 - 1):0] d0_1_24;
+  wire [(28 - 1):0] d1_1_27;
+  wire [(1 - 1):0] sel_internal_2_1_convert;
+  reg [(28 - 1):0] unregy_join_6_1;
+  assign sel_1_20 = sel;
+  assign d0_1_24 = d0;
+  assign d1_1_27 = d1;
+  assign sel_internal_2_1_convert = {sel_1_20};
+  always @(d0_1_24 or d1_1_27 or sel_internal_2_1_convert)
+    begin:proc_switch_6_1
+      case (sel_internal_2_1_convert)
+        1'b0 :
+          begin
+            unregy_join_6_1 = d0_1_24;
+          end
+        default:
+          begin
+            unregy_join_6_1 = d1_1_27;
+          end
+      endcase
+    end
+  assign y = unregy_join_6_1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_concat_d2206f3369 (
+  input [(1 - 1):0] in0,
+  input [(1 - 1):0] in1,
+  input [(1 - 1):0] in2,
+  input [(1 - 1):0] in3,
+  input [(1 - 1):0] in4,
+  input [(1 - 1):0] in5,
+  input [(1 - 1):0] in6,
+  input [(1 - 1):0] in7,
+  input [(1 - 1):0] in8,
+  input [(1 - 1):0] in9,
+  input [(1 - 1):0] in10,
+  input [(1 - 1):0] in11,
+  input [(1 - 1):0] in12,
+  input [(1 - 1):0] in13,
+  input [(1 - 1):0] in14,
+  input [(1 - 1):0] in15,
+  input [(1 - 1):0] in16,
+  input [(1 - 1):0] in17,
+  input [(1 - 1):0] in18,
+  input [(1 - 1):0] in19,
+  input [(1 - 1):0] in20,
+  input [(1 - 1):0] in21,
+  input [(1 - 1):0] in22,
+  input [(1 - 1):0] in23,
+  input [(1 - 1):0] in24,
+  input [(1 - 1):0] in25,
+  input [(1 - 1):0] in26,
+  input [(1 - 1):0] in27,
+  input [(1 - 1):0] in28,
+  output [(29 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire in0_1_23;
+  wire in1_1_27;
+  wire in2_1_31;
+  wire in3_1_35;
+  wire in4_1_39;
+  wire in5_1_43;
+  wire in6_1_47;
+  wire in7_1_51;
+  wire in8_1_55;
+  wire in9_1_59;
+  wire in10_1_63;
+  wire in11_1_68;
+  wire in12_1_73;
+  wire in13_1_78;
+  wire in14_1_83;
+  wire in15_1_88;
+  wire in16_1_93;
+  wire in17_1_98;
+  wire in18_1_103;
+  wire in19_1_108;
+  wire in20_1_113;
+  wire in21_1_118;
+  wire in22_1_123;
+  wire in23_1_128;
+  wire in24_1_133;
+  wire in25_1_138;
+  wire in26_1_143;
+  wire in27_1_148;
+  wire in28_1_153;
+  wire [(29 - 1):0] y_2_1_concat;
+  assign in0_1_23 = in0;
+  assign in1_1_27 = in1;
+  assign in2_1_31 = in2;
+  assign in3_1_35 = in3;
+  assign in4_1_39 = in4;
+  assign in5_1_43 = in5;
+  assign in6_1_47 = in6;
+  assign in7_1_51 = in7;
+  assign in8_1_55 = in8;
+  assign in9_1_59 = in9;
+  assign in10_1_63 = in10;
+  assign in11_1_68 = in11;
+  assign in12_1_73 = in12;
+  assign in13_1_78 = in13;
+  assign in14_1_83 = in14;
+  assign in15_1_88 = in15;
+  assign in16_1_93 = in16;
+  assign in17_1_98 = in17;
+  assign in18_1_103 = in18;
+  assign in19_1_108 = in19;
+  assign in20_1_113 = in20;
+  assign in21_1_118 = in21;
+  assign in22_1_123 = in22;
+  assign in23_1_128 = in23;
+  assign in24_1_133 = in24;
+  assign in25_1_138 = in25;
+  assign in26_1_143 = in26;
+  assign in27_1_148 = in27;
+  assign in28_1_153 = in28;
+  assign y_2_1_concat = {in0_1_23, in1_1_27, in2_1_31, in3_1_35, in4_1_39, in5_1_43, in6_1_47, in7_1_51, in8_1_55, in9_1_59, in10_1_63, in11_1_68, in12_1_73, in13_1_78, in14_1_83, in15_1_88, in16_1_93, in17_1_98, in18_1_103, in19_1_108, in20_1_113, in21_1_118, in22_1_123, in23_1_128, in24_1_133, in25_1_138, in26_1_143, in27_1_148, in28_1_153};
+  assign y = y_2_1_concat;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_16c6c78797 (
+  input [(29 - 1):0] a,
+  input [(29 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(29 - 1):0] a_1_31;
+  wire signed [(29 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire signed [(30 - 1):0] cast_22_12;
+  wire signed [(30 - 1):0] cast_22_17;
+  wire result_22_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign cast_22_12 = {a_1_31[28:0], 1'b0};
+  assign cast_22_17 = {{1{b_1_34[28]}}, b_1_34[28:0]};
+  assign result_22_3_rel = cast_22_12 >= cast_22_17;
+  assign op = result_22_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_scale_cbff0c76db (
+  input [(29 - 1):0] ip,
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire [(29 - 1):0] ip_17_23;
+  localparam signed [(7 - 1):0] const_value = 7'sb0011100;
+  assign ip_17_23 = ip;
+  assign op = ip_17_23;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_b92fcbacd8 (
+  input [(29 - 1):0] a,
+  input [(29 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(29 - 1):0] a_1_31;
+  wire signed [(29 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire result_16_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign result_16_3_rel = a_1_31 < b_1_34;
+  assign op = result_16_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_91f37d7947 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b10000000000000000000000000000;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_8a68ace7d1 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b10011100011100011100011100100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_0ccfde41e3 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b10111000111000111000111000111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_015b651e0d (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b11010101010101010101010101011;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_58fd966409 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b11110001110001110001110001110;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_09a24e6575 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b00001110001110001110001110010;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_956194f018 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b00101010101010101010101010101;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_f8b1adec08 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b01000111000111000111000111001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_b3a1f4a20a (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b01100011100011100011100011100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_f5fbe8cfc9 (
+  output [(29 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 29'b01111111111111111111111111111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_mux_d5380d9edc (
+  input [(1 - 1):0] sel,
+  input [(29 - 1):0] d0,
+  input [(29 - 1):0] d1,
+  output [(29 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire sel_1_20;
+  wire [(29 - 1):0] d0_1_24;
+  wire [(29 - 1):0] d1_1_27;
+  wire [(1 - 1):0] sel_internal_2_1_convert;
+  reg [(29 - 1):0] unregy_join_6_1;
+  assign sel_1_20 = sel;
+  assign d0_1_24 = d0;
+  assign d1_1_27 = d1;
+  assign sel_internal_2_1_convert = {sel_1_20};
+  always @(d0_1_24 or d1_1_27 or sel_internal_2_1_convert)
+    begin:proc_switch_6_1
+      case (sel_internal_2_1_convert)
+        1'b0 :
+          begin
+            unregy_join_6_1 = d0_1_24;
+          end
+        default:
+          begin
+            unregy_join_6_1 = d1_1_27;
+          end
+      endcase
+    end
+  assign y = unregy_join_6_1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_concat_03e2499edb (
+  input [(1 - 1):0] in0,
+  input [(1 - 1):0] in1,
+  input [(1 - 1):0] in2,
+  input [(1 - 1):0] in3,
+  input [(1 - 1):0] in4,
+  input [(1 - 1):0] in5,
+  input [(1 - 1):0] in6,
+  input [(1 - 1):0] in7,
+  input [(1 - 1):0] in8,
+  input [(1 - 1):0] in9,
+  input [(1 - 1):0] in10,
+  input [(1 - 1):0] in11,
+  input [(1 - 1):0] in12,
+  input [(1 - 1):0] in13,
+  input [(1 - 1):0] in14,
+  input [(1 - 1):0] in15,
+  input [(1 - 1):0] in16,
+  input [(1 - 1):0] in17,
+  input [(1 - 1):0] in18,
+  input [(1 - 1):0] in19,
+  input [(1 - 1):0] in20,
+  input [(1 - 1):0] in21,
+  input [(1 - 1):0] in22,
+  input [(1 - 1):0] in23,
+  input [(1 - 1):0] in24,
+  input [(1 - 1):0] in25,
+  input [(1 - 1):0] in26,
+  input [(1 - 1):0] in27,
+  input [(1 - 1):0] in28,
+  input [(1 - 1):0] in29,
+  output [(30 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire in0_1_23;
+  wire in1_1_27;
+  wire in2_1_31;
+  wire in3_1_35;
+  wire in4_1_39;
+  wire in5_1_43;
+  wire in6_1_47;
+  wire in7_1_51;
+  wire in8_1_55;
+  wire in9_1_59;
+  wire in10_1_63;
+  wire in11_1_68;
+  wire in12_1_73;
+  wire in13_1_78;
+  wire in14_1_83;
+  wire in15_1_88;
+  wire in16_1_93;
+  wire in17_1_98;
+  wire in18_1_103;
+  wire in19_1_108;
+  wire in20_1_113;
+  wire in21_1_118;
+  wire in22_1_123;
+  wire in23_1_128;
+  wire in24_1_133;
+  wire in25_1_138;
+  wire in26_1_143;
+  wire in27_1_148;
+  wire in28_1_153;
+  wire in29_1_158;
+  wire [(30 - 1):0] y_2_1_concat;
+  assign in0_1_23 = in0;
+  assign in1_1_27 = in1;
+  assign in2_1_31 = in2;
+  assign in3_1_35 = in3;
+  assign in4_1_39 = in4;
+  assign in5_1_43 = in5;
+  assign in6_1_47 = in6;
+  assign in7_1_51 = in7;
+  assign in8_1_55 = in8;
+  assign in9_1_59 = in9;
+  assign in10_1_63 = in10;
+  assign in11_1_68 = in11;
+  assign in12_1_73 = in12;
+  assign in13_1_78 = in13;
+  assign in14_1_83 = in14;
+  assign in15_1_88 = in15;
+  assign in16_1_93 = in16;
+  assign in17_1_98 = in17;
+  assign in18_1_103 = in18;
+  assign in19_1_108 = in19;
+  assign in20_1_113 = in20;
+  assign in21_1_118 = in21;
+  assign in22_1_123 = in22;
+  assign in23_1_128 = in23;
+  assign in24_1_133 = in24;
+  assign in25_1_138 = in25;
+  assign in26_1_143 = in26;
+  assign in27_1_148 = in27;
+  assign in28_1_153 = in28;
+  assign in29_1_158 = in29;
+  assign y_2_1_concat = {in0_1_23, in1_1_27, in2_1_31, in3_1_35, in4_1_39, in5_1_43, in6_1_47, in7_1_51, in8_1_55, in9_1_59, in10_1_63, in11_1_68, in12_1_73, in13_1_78, in14_1_83, in15_1_88, in16_1_93, in17_1_98, in18_1_103, in19_1_108, in20_1_113, in21_1_118, in22_1_123, in23_1_128, in24_1_133, in25_1_138, in26_1_143, in27_1_148, in28_1_153, in29_1_158};
+  assign y = y_2_1_concat;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_0ae3b524b9 (
+  input [(30 - 1):0] a,
+  input [(30 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(30 - 1):0] a_1_31;
+  wire signed [(30 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire signed [(31 - 1):0] cast_22_12;
+  wire signed [(31 - 1):0] cast_22_17;
+  wire result_22_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign cast_22_12 = {a_1_31[29:0], 1'b0};
+  assign cast_22_17 = {{1{b_1_34[29]}}, b_1_34[29:0]};
+  assign result_22_3_rel = cast_22_12 >= cast_22_17;
+  assign op = result_22_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_scale_440613ab65 (
+  input [(30 - 1):0] ip,
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire [(30 - 1):0] ip_17_23;
+  localparam signed [(7 - 1):0] const_value = 7'sb0011101;
+  assign ip_17_23 = ip;
+  assign op = ip_17_23;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_4836f8ae2e (
+  input [(30 - 1):0] a,
+  input [(30 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(30 - 1):0] a_1_31;
+  wire signed [(30 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire result_16_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign result_16_3_rel = a_1_31 < b_1_34;
+  assign op = result_16_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_3e328a76af (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b100000000000000000000000000000;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_ab9d4aa07b (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b100111000111000111000111000111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_a49bfed875 (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b101110001110001110001110001110;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_afc7208670 (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b110101010101010101010101010101;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_92cbc520ed (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b111100011100011100011100011100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_44e61ccb10 (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b000011100011100011100011100100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_0a7e696f44 (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b001010101010101010101010101011;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_250b249eac (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b010001110001110001110001110010;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_1e35d473ce (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b011000111000111000111000111001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_d777fc62ad (
+  output [(30 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 30'b011111111111111111111111111111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_mux_61d1be814f (
+  input [(1 - 1):0] sel,
+  input [(30 - 1):0] d0,
+  input [(30 - 1):0] d1,
+  output [(30 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire sel_1_20;
+  wire [(30 - 1):0] d0_1_24;
+  wire [(30 - 1):0] d1_1_27;
+  wire [(1 - 1):0] sel_internal_2_1_convert;
+  reg [(30 - 1):0] unregy_join_6_1;
+  assign sel_1_20 = sel;
+  assign d0_1_24 = d0;
+  assign d1_1_27 = d1;
+  assign sel_internal_2_1_convert = {sel_1_20};
+  always @(d0_1_24 or d1_1_27 or sel_internal_2_1_convert)
+    begin:proc_switch_6_1
+      case (sel_internal_2_1_convert)
+        1'b0 :
+          begin
+            unregy_join_6_1 = d0_1_24;
+          end
+        default:
+          begin
+            unregy_join_6_1 = d1_1_27;
+          end
+      endcase
+    end
+  assign y = unregy_join_6_1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_concat_ef98d2c677 (
+  input [(1 - 1):0] in0,
+  input [(1 - 1):0] in1,
+  input [(1 - 1):0] in2,
+  input [(1 - 1):0] in3,
+  input [(1 - 1):0] in4,
+  input [(1 - 1):0] in5,
+  input [(1 - 1):0] in6,
+  input [(1 - 1):0] in7,
+  input [(1 - 1):0] in8,
+  input [(1 - 1):0] in9,
+  input [(1 - 1):0] in10,
+  input [(1 - 1):0] in11,
+  input [(1 - 1):0] in12,
+  input [(1 - 1):0] in13,
+  input [(1 - 1):0] in14,
+  input [(1 - 1):0] in15,
+  input [(1 - 1):0] in16,
+  input [(1 - 1):0] in17,
+  input [(1 - 1):0] in18,
+  input [(1 - 1):0] in19,
+  input [(1 - 1):0] in20,
+  input [(1 - 1):0] in21,
+  input [(1 - 1):0] in22,
+  input [(1 - 1):0] in23,
+  input [(1 - 1):0] in24,
+  input [(1 - 1):0] in25,
+  input [(1 - 1):0] in26,
+  input [(1 - 1):0] in27,
+  input [(1 - 1):0] in28,
+  input [(1 - 1):0] in29,
+  input [(1 - 1):0] in30,
+  output [(31 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire in0_1_23;
+  wire in1_1_27;
+  wire in2_1_31;
+  wire in3_1_35;
+  wire in4_1_39;
+  wire in5_1_43;
+  wire in6_1_47;
+  wire in7_1_51;
+  wire in8_1_55;
+  wire in9_1_59;
+  wire in10_1_63;
+  wire in11_1_68;
+  wire in12_1_73;
+  wire in13_1_78;
+  wire in14_1_83;
+  wire in15_1_88;
+  wire in16_1_93;
+  wire in17_1_98;
+  wire in18_1_103;
+  wire in19_1_108;
+  wire in20_1_113;
+  wire in21_1_118;
+  wire in22_1_123;
+  wire in23_1_128;
+  wire in24_1_133;
+  wire in25_1_138;
+  wire in26_1_143;
+  wire in27_1_148;
+  wire in28_1_153;
+  wire in29_1_158;
+  wire in30_1_163;
+  wire [(31 - 1):0] y_2_1_concat;
+  assign in0_1_23 = in0;
+  assign in1_1_27 = in1;
+  assign in2_1_31 = in2;
+  assign in3_1_35 = in3;
+  assign in4_1_39 = in4;
+  assign in5_1_43 = in5;
+  assign in6_1_47 = in6;
+  assign in7_1_51 = in7;
+  assign in8_1_55 = in8;
+  assign in9_1_59 = in9;
+  assign in10_1_63 = in10;
+  assign in11_1_68 = in11;
+  assign in12_1_73 = in12;
+  assign in13_1_78 = in13;
+  assign in14_1_83 = in14;
+  assign in15_1_88 = in15;
+  assign in16_1_93 = in16;
+  assign in17_1_98 = in17;
+  assign in18_1_103 = in18;
+  assign in19_1_108 = in19;
+  assign in20_1_113 = in20;
+  assign in21_1_118 = in21;
+  assign in22_1_123 = in22;
+  assign in23_1_128 = in23;
+  assign in24_1_133 = in24;
+  assign in25_1_138 = in25;
+  assign in26_1_143 = in26;
+  assign in27_1_148 = in27;
+  assign in28_1_153 = in28;
+  assign in29_1_158 = in29;
+  assign in30_1_163 = in30;
+  assign y_2_1_concat = {in0_1_23, in1_1_27, in2_1_31, in3_1_35, in4_1_39, in5_1_43, in6_1_47, in7_1_51, in8_1_55, in9_1_59, in10_1_63, in11_1_68, in12_1_73, in13_1_78, in14_1_83, in15_1_88, in16_1_93, in17_1_98, in18_1_103, in19_1_108, in20_1_113, in21_1_118, in22_1_123, in23_1_128, in24_1_133, in25_1_138, in26_1_143, in27_1_148, in28_1_153, in29_1_158, in30_1_163};
+  assign y = y_2_1_concat;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_6e97fda2a2 (
+  input [(31 - 1):0] a,
+  input [(31 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(31 - 1):0] a_1_31;
+  wire signed [(31 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire signed [(32 - 1):0] cast_22_12;
+  wire signed [(32 - 1):0] cast_22_17;
+  wire result_22_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign cast_22_12 = {a_1_31[30:0], 1'b0};
+  assign cast_22_17 = {{1{b_1_34[30]}}, b_1_34[30:0]};
+  assign result_22_3_rel = cast_22_12 >= cast_22_17;
+  assign op = result_22_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_scale_27cd73b8d4 (
+  input [(31 - 1):0] ip,
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire [(31 - 1):0] ip_17_23;
+  localparam signed [(7 - 1):0] const_value = 7'sb0011110;
+  assign ip_17_23 = ip;
+  assign op = ip_17_23;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_80283402f0 (
+  input [(31 - 1):0] a,
+  input [(31 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(31 - 1):0] a_1_31;
+  wire signed [(31 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire result_16_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign result_16_3_rel = a_1_31 < b_1_34;
+  assign op = result_16_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_744317480f (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b1000000000000000000000000000000;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_134564a769 (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b1001110001110001110001110001110;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_3e114b14fe (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b1011100011100011100011100011100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_f6214b467c (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b1101010101010101010101010101011;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_242c598b7f (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b1111000111000111000111000111001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_6b1a58446f (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b0000111000111000111000111000111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_08e620ddfe (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b0010101010101010101010101010101;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_8b81a47dad (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b0100011100011100011100011100100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_0cb7379c6a (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b0110001110001110001110001110010;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_7e5ca60ccd (
+  output [(31 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 31'b0111111111111111111111111111111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_mux_ada4b777fa (
+  input [(1 - 1):0] sel,
+  input [(31 - 1):0] d0,
+  input [(31 - 1):0] d1,
+  output [(31 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire sel_1_20;
+  wire [(31 - 1):0] d0_1_24;
+  wire [(31 - 1):0] d1_1_27;
+  wire [(1 - 1):0] sel_internal_2_1_convert;
+  reg [(31 - 1):0] unregy_join_6_1;
+  assign sel_1_20 = sel;
+  assign d0_1_24 = d0;
+  assign d1_1_27 = d1;
+  assign sel_internal_2_1_convert = {sel_1_20};
+  always @(d0_1_24 or d1_1_27 or sel_internal_2_1_convert)
+    begin:proc_switch_6_1
+      case (sel_internal_2_1_convert)
+        1'b0 :
+          begin
+            unregy_join_6_1 = d0_1_24;
+          end
+        default:
+          begin
+            unregy_join_6_1 = d1_1_27;
+          end
+      endcase
+    end
+  assign y = unregy_join_6_1;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_concat_3a44b16714 (
+  input [(1 - 1):0] in0,
+  input [(1 - 1):0] in1,
+  input [(1 - 1):0] in2,
+  input [(1 - 1):0] in3,
+  input [(1 - 1):0] in4,
+  input [(1 - 1):0] in5,
+  input [(1 - 1):0] in6,
+  input [(1 - 1):0] in7,
+  input [(1 - 1):0] in8,
+  input [(1 - 1):0] in9,
+  input [(1 - 1):0] in10,
+  input [(1 - 1):0] in11,
+  input [(1 - 1):0] in12,
+  input [(1 - 1):0] in13,
+  input [(1 - 1):0] in14,
+  input [(1 - 1):0] in15,
+  input [(1 - 1):0] in16,
+  input [(1 - 1):0] in17,
+  input [(1 - 1):0] in18,
+  input [(1 - 1):0] in19,
+  input [(1 - 1):0] in20,
+  input [(1 - 1):0] in21,
+  input [(1 - 1):0] in22,
+  input [(1 - 1):0] in23,
+  input [(1 - 1):0] in24,
+  input [(1 - 1):0] in25,
+  input [(1 - 1):0] in26,
+  input [(1 - 1):0] in27,
+  input [(1 - 1):0] in28,
+  input [(1 - 1):0] in29,
+  input [(1 - 1):0] in30,
+  input [(1 - 1):0] in31,
+  output [(32 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire in0_1_23;
+  wire in1_1_27;
+  wire in2_1_31;
+  wire in3_1_35;
+  wire in4_1_39;
+  wire in5_1_43;
+  wire in6_1_47;
+  wire in7_1_51;
+  wire in8_1_55;
+  wire in9_1_59;
+  wire in10_1_63;
+  wire in11_1_68;
+  wire in12_1_73;
+  wire in13_1_78;
+  wire in14_1_83;
+  wire in15_1_88;
+  wire in16_1_93;
+  wire in17_1_98;
+  wire in18_1_103;
+  wire in19_1_108;
+  wire in20_1_113;
+  wire in21_1_118;
+  wire in22_1_123;
+  wire in23_1_128;
+  wire in24_1_133;
+  wire in25_1_138;
+  wire in26_1_143;
+  wire in27_1_148;
+  wire in28_1_153;
+  wire in29_1_158;
+  wire in30_1_163;
+  wire in31_1_168;
+  wire [(32 - 1):0] y_2_1_concat;
+  assign in0_1_23 = in0;
+  assign in1_1_27 = in1;
+  assign in2_1_31 = in2;
+  assign in3_1_35 = in3;
+  assign in4_1_39 = in4;
+  assign in5_1_43 = in5;
+  assign in6_1_47 = in6;
+  assign in7_1_51 = in7;
+  assign in8_1_55 = in8;
+  assign in9_1_59 = in9;
+  assign in10_1_63 = in10;
+  assign in11_1_68 = in11;
+  assign in12_1_73 = in12;
+  assign in13_1_78 = in13;
+  assign in14_1_83 = in14;
+  assign in15_1_88 = in15;
+  assign in16_1_93 = in16;
+  assign in17_1_98 = in17;
+  assign in18_1_103 = in18;
+  assign in19_1_108 = in19;
+  assign in20_1_113 = in20;
+  assign in21_1_118 = in21;
+  assign in22_1_123 = in22;
+  assign in23_1_128 = in23;
+  assign in24_1_133 = in24;
+  assign in25_1_138 = in25;
+  assign in26_1_143 = in26;
+  assign in27_1_148 = in27;
+  assign in28_1_153 = in28;
+  assign in29_1_158 = in29;
+  assign in30_1_163 = in30;
+  assign in31_1_168 = in31;
+  assign y_2_1_concat = {in0_1_23, in1_1_27, in2_1_31, in3_1_35, in4_1_39, in5_1_43, in6_1_47, in7_1_51, in8_1_55, in9_1_59, in10_1_63, in11_1_68, in12_1_73, in13_1_78, in14_1_83, in15_1_88, in16_1_93, in17_1_98, in18_1_103, in19_1_108, in20_1_113, in21_1_118, in22_1_123, in23_1_128, in24_1_133, in25_1_138, in26_1_143, in27_1_148, in28_1_153, in29_1_158, in30_1_163, in31_1_168};
+  assign y = y_2_1_concat;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_363a582d54 (
+  input [(32 - 1):0] a,
+  input [(32 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(32 - 1):0] a_1_31;
+  wire signed [(32 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire signed [(33 - 1):0] cast_22_12;
+  wire signed [(33 - 1):0] cast_22_17;
+  wire result_22_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign cast_22_12 = {a_1_31[31:0], 1'b0};
+  assign cast_22_17 = {{1{b_1_34[31]}}, b_1_34[31:0]};
+  assign result_22_3_rel = cast_22_12 >= cast_22_17;
+  assign op = result_22_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_scale_1eaa855f0a (
+  input [(32 - 1):0] ip,
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire [(32 - 1):0] ip_17_23;
+  localparam signed [(7 - 1):0] const_value = 7'sb0011111;
+  assign ip_17_23 = ip;
+  assign op = ip_17_23;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_relational_4d437f385c (
+  input [(32 - 1):0] a,
+  input [(32 - 1):0] b,
+  output [(1 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  wire signed [(32 - 1):0] a_1_31;
+  wire signed [(32 - 1):0] b_1_34;
+  localparam [(1 - 1):0] const_value = 1'b1;
+  wire result_16_3_rel;
+  assign a_1_31 = a;
+  assign b_1_34 = b;
+  assign result_16_3_rel = a_1_31 < b_1_34;
+  assign op = result_16_3_rel;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_dd17bb974e (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b10000000000000000000000000000000;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_3a1a68f2dd (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b10011100011100011100011100011100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_675ca48183 (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b10111000111000111000111000111001;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_ffbfef5419 (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b11010101010101010101010101010101;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_31e7f0bc3c (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b11110001110001110001110001110010;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_8ac5bd7aec (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b00001110001110001110001110001110;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_b9995eee17 (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b00101010101010101010101010101011;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_1adfa21344 (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b01000111000111000111000111000111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_120b3201fe (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b01100011100011100011100011100100;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_constant_bec9f0053b (
+  output [(32 - 1):0] op,
+  input clk,
+  input ce,
+  input clr);
+  assign op = 32'b01111111111111111111111111111111;
+endmodule
+`timescale 1 ns / 10 ps
+module sysgen_mux_c98e83377e (
+  input [(1 - 1):0] sel,
+  input [(32 - 1):0] d0,
+  input [(32 - 1):0] d1,
+  output [(32 - 1):0] y,
+  input clk,
+  input ce,
+  input clr);
+  wire sel_1_20;
+  wire [(32 - 1):0] d0_1_24;
+  wire [(32 - 1):0] d1_1_27;
+  wire [(1 - 1):0] sel_internal_2_1_convert;
+  reg [(32 - 1):0] unregy_join_6_1;
+  assign sel_1_20 = sel;
+  assign d0_1_24 = d0;
+  assign d1_1_27 = d1;
+  assign sel_internal_2_1_convert = {sel_1_20};
+  always @(d0_1_24 or d1_1_27 or sel_internal_2_1_convert)
+    begin:proc_switch_6_1
+      case (sel_internal_2_1_convert)
+        1'b0 :
+          begin
+            unregy_join_6_1 = d0_1_24;
+          end
+        default:
+          begin
+            unregy_join_6_1 = d1_1_27;
+          end
+      endcase
+    end
+  assign y = unregy_join_6_1;
+endmodule
+module abslut10_fixpt8_32_xladdsub (a, b, c_in, ce, clr, clk, rst, en, c_out, s);
+ 
+ parameter core_name0= "";
+ parameter a_width= 16;
+ parameter signed a_bin_pt= 4;
+ parameter a_arith= `xlUnsigned;
+ parameter c_in_width= 16;
+ parameter c_in_bin_pt= 4;
+ parameter c_in_arith= `xlUnsigned;
+ parameter c_out_width= 16;
+ parameter c_out_bin_pt= 4;
+ parameter c_out_arith= `xlUnsigned;
+ parameter b_width= 8;
+ parameter signed b_bin_pt= 2;
+ parameter b_arith= `xlUnsigned;
+ parameter s_width= 17;
+ parameter s_bin_pt= 4;
+ parameter s_arith= `xlUnsigned;
+ parameter rst_width= 1;
+ parameter rst_bin_pt= 0;
+ parameter rst_arith= `xlUnsigned;
+ parameter en_width= 1;
+ parameter en_bin_pt= 0;
+ parameter en_arith= `xlUnsigned;
+ parameter full_s_width= 17;
+ parameter full_s_arith= `xlUnsigned;
+ parameter mode= `xlAddMode;
+ parameter extra_registers= 0;
+ parameter latency= 0;
+ parameter quantization= `xlTruncate;
+ parameter overflow= `xlWrap;
+ parameter c_a_width= 16;
+ parameter c_b_width= 8;
+ parameter c_a_type= 1;
+ parameter c_b_type= 1;
+ parameter c_has_sclr= 0;
+ parameter c_has_ce= 0;
+ parameter c_latency= 0;
+ parameter c_output_width= 17;
+ parameter c_enable_rlocs= 1;
+ parameter c_has_c_in= 0;
+ parameter c_has_c_out= 0;
+ 
+ input [a_width-1:0] a;
+ input [b_width-1:0] b;
+ input c_in, ce, clr, clk, rst, en;
+ output c_out;
+ output [s_width-1:0] s;
+ 
+ parameter full_a_width = full_s_width;
+ parameter full_b_width = full_s_width;
+ parameter full_s_bin_pt = (a_bin_pt > b_bin_pt) ? a_bin_pt : b_bin_pt;
+ 
+ wire [full_a_width-1:0] full_a;
+ wire [full_b_width-1:0] full_b;
+ wire [full_s_width-1:0] full_s;
+ wire [full_s_width-1:0] core_s;
+ wire [s_width-1:0] conv_s;
+ wire  temp_cout;
+ wire  real_a,real_b,real_s;
+ wire  internal_clr;
+ wire  internal_ce;
+ wire  extra_reg_ce;
+ wire  override;
+ wire  logic1;
+ wire  temp_cin;
+ 
+ assign internal_clr = (clr | rst) & ce;
+ assign internal_ce = ce & en;
+ assign logic1 = 1'b1;
+ assign temp_cin = (c_has_c_in) ? c_in : 1'b0;
+ 
+ align_input # (a_width, b_bin_pt - a_bin_pt, a_arith, full_a_width)
+ align_inp_a(.inp(a),.res(full_a));
+ align_input # (b_width, a_bin_pt - b_bin_pt, b_arith, full_b_width)
+ align_inp_b(.inp(b),.res(full_b));
+ convert_type # (full_s_width, full_s_bin_pt, full_s_arith, s_width,
+                 s_bin_pt, s_arith, quantization, overflow)
+ conv_typ_s(.inp(core_s),.res(conv_s));
+ 
+ generate
+
+
+if (core_name0 == "abslut10_fixpt8_32_c_addsub_v12_0_i0") 
+     begin:comp0
+abslut10_fixpt8_32_c_addsub_v12_0_i0 core_instance0 ( 
+         .A(full_a),
+         .S(core_s),
+         .B(full_b) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_c_addsub_v12_0_i1") 
+     begin:comp1
+abslut10_fixpt8_32_c_addsub_v12_0_i1 core_instance1 ( 
+         .A(full_a),
+         .S(core_s),
+         .B(full_b) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_c_addsub_v12_0_i2") 
+     begin:comp2
+abslut10_fixpt8_32_c_addsub_v12_0_i2 core_instance2 ( 
+         .A(full_a),
+         .S(core_s),
+         .B(full_b) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_c_addsub_v12_0_i3") 
+     begin:comp3
+abslut10_fixpt8_32_c_addsub_v12_0_i3 core_instance3 ( 
+         .A(full_a),
+         .S(core_s),
+         .B(full_b) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_c_addsub_v12_0_i4") 
+     begin:comp4
+abslut10_fixpt8_32_c_addsub_v12_0_i4 core_instance4 ( 
+         .A(full_a),
+         .S(core_s),
+         .B(full_b) 
+       ); 
+     end 
+
+endgenerate 
+ 
+ 
+ generate
+   if (extra_registers > 0)
+   begin:latency_test
+     
+     if (c_latency > 1)
+     begin:override_test
+       synth_reg # (1, c_latency)
+         override_pipe (
+           .i(logic1),
+           .ce(internal_ce),
+           .clr(internal_clr),
+           .clk(clk),
+           .o(override));
+       assign extra_reg_ce = ce & en & override;
+     end // override_test
+ 
+     if ((c_latency == 0) || (c_latency == 1))
+     begin:no_override
+       assign extra_reg_ce = ce & en;
+     end // no_override
+ 
+     synth_reg # (s_width, extra_registers)
+       extra_reg (
+         .i(conv_s),
+         .ce(extra_reg_ce),
+         .clr(internal_clr),
+         .clk(clk),
+         .o(s));
+ 
+     if (c_has_c_out == 1)
+     begin:cout_test
+       synth_reg # (1, extra_registers)
+         c_out_extra_reg (
+           .i(temp_cout),
+           .ce(extra_reg_ce),
+           .clr(internal_clr),
+           .clk(clk),
+           .o(c_out));
+     end // cout_test
+     
+   end // latency_test
+ endgenerate
+ 
+ generate
+   if ((latency == 0) || (extra_registers == 0))
+   begin:latency_s
+     assign s = conv_s;
+   end // latency_s
+ endgenerate
+ 
+ generate
+   if (((latency == 0) || (extra_registers == 0)) &&
+       (c_has_c_out == 1))
+   begin:latency0
+     assign c_out = temp_cout;
+   end // latency0
+ endgenerate
+ 
+ generate
+   if (c_has_c_out == 0)
+   begin:tie_dangling_cout
+     assign c_out = 0;
+   end // tie_dangling_cout
+ endgenerate
+ 
+ endmodule
+
+module abslut10_fixpt8_32_xlcmult (a, ce, clr, clk, core_ce, core_clr, core_clk, rst, en, p);
+ 
+ parameter core_name0= "";
+ parameter a_width= 4;
+ parameter a_bin_pt= 2;
+ parameter a_arith= `xlSigned;
+ parameter b_width= 4;
+ parameter b_bin_pt= 2;
+ parameter b_arith= `xlSigned;
+ parameter p_width= 8;
+ parameter p_bin_pt= 2;
+ parameter p_arith= `xlSigned;
+ parameter rst_width= 1;
+ parameter rst_bin_pt= 0;
+ parameter rst_arith= `xlUnsigned;
+ parameter en_width= 1;
+ parameter en_bin_pt= 0;
+ parameter en_arith= `xlUnsigned;
+ parameter multsign= `xlSigned;
+ parameter quantization= `xlTruncate;
+ parameter overflow= `xlWrap;
+ parameter extra_registers= 0;
+ parameter c_a_width= 7;
+ parameter c_b_width= 7;
+ parameter c_a_type= 0;
+ parameter c_b_type= 0;
+ parameter c_type= 0;
+ parameter const_bin_pt= 1;
+ parameter c_output_width= 16;
+ parameter zero_const = 0;
+ 
+ input [a_width-1:0] a;
+ input  ce;
+ input  clr;
+ input  clk;
+ input  core_ce;
+ input  core_clr;
+ input  core_clk;
+ input [rst_width-1:0] rst;
+ input [en_width-1:0] en;
+ output [p_width-1:0] p;
+ 
+ wire [c_a_width-1:0] #0.1 tmp_a;
+ wire [c_output_width-1:0] tmp_p;
+ wire [p_width-1:0] conv_p;
+ wire  real_a,real_p;
+ wire  nd;
+ wire  internal_ce;
+ wire  internal_clr;
+ wire  internal_core_ce;
+ 
+ assign internal_ce = ce & en[0];
+ assign internal_core_ce = core_ce & en[0];
+ assign internal_clr = (clr | rst[0]) & ce;
+ assign nd = internal_ce;
+ 
+ zero_ext # (a_width,c_a_width) zero_ext_a(.inp(a),.res(tmp_a));
+ 
+ convert_type # (c_output_width, a_bin_pt+b_bin_pt, multsign,
+                            p_width, p_bin_pt, p_arith, quantization, overflow)
+ convert_p(.inp(tmp_p),.res(conv_p));
+ 
+ generate
+
+
+
+if (core_name0 == "abslut10_fixpt8_32_mult_gen_v12_0_i0") 
+     begin:comp0
+abslut10_fixpt8_32_mult_gen_v12_0_i0 core_instance0 ( 
+      .P(tmp_p),
+      .A(tmp_a) 
+       ); 
+     end 
+
+ endgenerate
+ 
+ generate
+  if ((extra_registers > 0) && (zero_const == 0))
+      begin:latency_gt_0
+ 	synth_reg # (p_width, extra_registers) 
+ 	  reg1 (
+ 	       .i(conv_p), 
+ 	       .ce(internal_ce),
+ 	       .clr(internal_clr),
+ 	       .clk(clk),
+ 	       .o(p)
+                );
+      end
+     
+    if ((extra_registers == 0) && (zero_const == 0))
+      begin:latency_eq_0
+ 	assign p = conv_p;
+      end
+ 
+    if (zero_const == 1)
+      begin:zero_constant
+ 	assign p = {p_width{1'b0}};
+      end
+ endgenerate
+ 
+ endmodule
+
+module abslut10_fixpt8_32_xlmult (a, b, ce, clr, clk, core_ce, core_clr,core_clk, rst, en,p);
+     parameter core_name0 = "";
+     parameter a_width = 4;
+     parameter a_bin_pt = 2;
+     parameter a_arith = `xlSigned;
+     parameter b_width = 4;
+     parameter b_bin_pt = 1;
+     parameter b_arith = `xlSigned;
+     parameter p_width = 8;
+     parameter p_bin_pt = 2;
+     parameter p_arith = `xlSigned;
+     parameter rst_width = 1;
+     parameter rst_bin_pt = 0;
+     parameter rst_arith = `xlUnsigned;
+     parameter en_width = 1;
+     parameter en_bin_pt = 0;
+     parameter en_arith = `xlUnsigned;
+     parameter quantization = `xlTruncate;
+     parameter overflow = `xlWrap;
+     parameter extra_registers = 0;
+     parameter c_a_width = 7;
+     parameter c_b_width = 7;
+     parameter c_type = 0;
+     parameter c_a_type = 0;
+     parameter c_b_type = 0;
+     parameter c_baat = 4;
+     parameter oversample = 1;
+     parameter multsign = `xlSigned;
+     parameter c_output_width = 16;
+     input [a_width - 1 : 0] a;
+     input [b_width - 1 : 0] b;
+     input ce, clr, clk;
+     input core_ce, core_clr, core_clk;
+     input en, rst;
+     output [p_width - 1 : 0] p;
+     wire [c_a_width - 1 : 0]    tmp_a, conv_a;
+     wire [c_b_width - 1 : 0]    tmp_b, conv_b;
+    wire [c_output_width - 1 : 0] tmp_p;
+    wire [p_width - 1 : 0] conv_p;
+    wire internal_ce, internal_clr, internal_core_ce;
+    wire rfd, rdy, nd;
+    
+ 
+    assign internal_ce = ce & en;
+    assign internal_core_ce = core_ce & en;
+    assign internal_clr = (clr | rst) & en;
+    assign nd = ce & en;
+ 
+    zero_ext # (a_width, c_a_width) zero_ext_a (.inp(a), .res(tmp_a));
+    zero_ext # (b_width, c_b_width) zero_ext_b (.inp(b), .res(tmp_b));
+ 
+    //Output Process
+    convert_type # (c_output_width, a_bin_pt+b_bin_pt, multsign,
+ 		   p_width, p_bin_pt, p_arith, quantization, overflow)
+      conv_udp (.inp(tmp_p), .res(conv_p));
+    
+ generate
+ 
+
+
+if (core_name0 == "abslut10_fixpt8_32_mult_gen_v12_0_i1") 
+     begin:comp0
+abslut10_fixpt8_32_mult_gen_v12_0_i1 core_instance0 ( 
+        .A(tmp_a),
+        .B(tmp_b),
+        .P(tmp_p) 
+       ); 
+     end 
+
+if (extra_registers > 0)
+ begin:latency_gt_0
+ synth_reg # (p_width, extra_registers) 
+ reg1 (
+ .i(conv_p), 
+ .ce(internal_ce),
+ .clr(internal_clr),
+ .clk(clk),
+ .o(p));
+ end
+ 
+ if (extra_registers == 0)
+ begin:latency_eq_0
+ assign p = conv_p;
+ end
+ endgenerate
+ 
+ endmodule
+
+module abslut10_fixpt8_32_xlsprom_dist (addr, en, ce, clk, data);
+    parameter core_name0= "";
+    parameter addr_width= 2;
+    parameter latency= 0;
+    parameter c_width= 12;
+    parameter c_address_width= 4;
+ 
+    input [addr_width-1:0] addr;
+    input en;
+    input ce;
+    input clk;
+    output [c_width-1:0] data;
+ 
+    wire [c_width-1:0] core_data_out;
+    wire [c_address_width-1:0] core_addr;
+    wire  core_ce;
+ 
+    assign core_addr = { {(c_address_width - addr_width) {1'b0}}, addr};
+    assign core_ce = ce & en;
+ 
+ generate
+ 
+
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i0") 
+     begin:comp0
+abslut10_fixpt8_32_dist_mem_gen_i0 core_instance0 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i1") 
+     begin:comp1
+abslut10_fixpt8_32_dist_mem_gen_i1 core_instance1 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i2") 
+     begin:comp2
+abslut10_fixpt8_32_dist_mem_gen_i2 core_instance2 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i3") 
+     begin:comp3
+abslut10_fixpt8_32_dist_mem_gen_i3 core_instance3 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i4") 
+     begin:comp4
+abslut10_fixpt8_32_dist_mem_gen_i4 core_instance4 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i5") 
+     begin:comp5
+abslut10_fixpt8_32_dist_mem_gen_i5 core_instance5 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i6") 
+     begin:comp6
+abslut10_fixpt8_32_dist_mem_gen_i6 core_instance6 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i7") 
+     begin:comp7
+abslut10_fixpt8_32_dist_mem_gen_i7 core_instance7 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i8") 
+     begin:comp8
+abslut10_fixpt8_32_dist_mem_gen_i8 core_instance8 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i9") 
+     begin:comp9
+abslut10_fixpt8_32_dist_mem_gen_i9 core_instance9 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i10") 
+     begin:comp10
+abslut10_fixpt8_32_dist_mem_gen_i10 core_instance10 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i11") 
+     begin:comp11
+abslut10_fixpt8_32_dist_mem_gen_i11 core_instance11 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i12") 
+     begin:comp12
+abslut10_fixpt8_32_dist_mem_gen_i12 core_instance12 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i13") 
+     begin:comp13
+abslut10_fixpt8_32_dist_mem_gen_i13 core_instance13 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i14") 
+     begin:comp14
+abslut10_fixpt8_32_dist_mem_gen_i14 core_instance14 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i15") 
+     begin:comp15
+abslut10_fixpt8_32_dist_mem_gen_i15 core_instance15 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i16") 
+     begin:comp16
+abslut10_fixpt8_32_dist_mem_gen_i16 core_instance16 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i17") 
+     begin:comp17
+abslut10_fixpt8_32_dist_mem_gen_i17 core_instance17 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i18") 
+     begin:comp18
+abslut10_fixpt8_32_dist_mem_gen_i18 core_instance18 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i19") 
+     begin:comp19
+abslut10_fixpt8_32_dist_mem_gen_i19 core_instance19 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i20") 
+     begin:comp20
+abslut10_fixpt8_32_dist_mem_gen_i20 core_instance20 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i21") 
+     begin:comp21
+abslut10_fixpt8_32_dist_mem_gen_i21 core_instance21 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i22") 
+     begin:comp22
+abslut10_fixpt8_32_dist_mem_gen_i22 core_instance22 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i23") 
+     begin:comp23
+abslut10_fixpt8_32_dist_mem_gen_i23 core_instance23 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i24") 
+     begin:comp24
+abslut10_fixpt8_32_dist_mem_gen_i24 core_instance24 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i25") 
+     begin:comp25
+abslut10_fixpt8_32_dist_mem_gen_i25 core_instance25 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i26") 
+     begin:comp26
+abslut10_fixpt8_32_dist_mem_gen_i26 core_instance26 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i27") 
+     begin:comp27
+abslut10_fixpt8_32_dist_mem_gen_i27 core_instance27 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i28") 
+     begin:comp28
+abslut10_fixpt8_32_dist_mem_gen_i28 core_instance28 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i29") 
+     begin:comp29
+abslut10_fixpt8_32_dist_mem_gen_i29 core_instance29 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i30") 
+     begin:comp30
+abslut10_fixpt8_32_dist_mem_gen_i30 core_instance30 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+if (core_name0 == "abslut10_fixpt8_32_dist_mem_gen_i31") 
+     begin:comp31
+abslut10_fixpt8_32_dist_mem_gen_i31 core_instance31 ( 
+         .a(core_addr),
+        .spo(core_data_out) 
+       ); 
+     end 
+
+   if (latency > 1)
+      begin:latency_test
+ 	synth_reg # (c_width, latency-1) 
+ 	  reg1 (
+ 	       .i(core_data_out), 
+ 	       .ce(core_ce),
+ 	       .clr(1'b0),
+ 	       .clk(clk),
+ 	       .o(data));
+      end
+     
+    if (latency <= 1)
+      begin:latency_0_or_1
+ 	assign data = core_data_out;
+      end
+ 
+ endgenerate
+ 
+ endmodule
+ 

@@ -1,0 +1,202 @@
+{
+  'Line_102' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem27bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem27bit/Mult2'
+  },
+  'Line_1022' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32',
+    'Instance' => 'total32',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32'
+  },
+  'Line_1058' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_1092' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_default_clock_driver',
+    'Instance' => 'cordic_max_fixpt27_32_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_1099' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct',
+    'Instance' => 'cordic_max_fixpt27_32_struct',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32'
+  },
+  'Line_136' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem27bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem27bit/addsub1'
+  },
+  'Line_170' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem28bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem28bit/CORDIC16'
+  },
+  'Line_178' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem28bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem28bit/Constant'
+  },
+  'Line_207' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem28bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem28bit/Mult1'
+  },
+  'Line_243' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem28bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem28bit/Mult2'
+  },
+  'Line_277' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem28bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem28bit/addsub1'
+  },
+  'Line_29' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem27bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem27bit/CORDIC16'
+  },
+  'Line_311' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem29bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem29bit/CORDIC16'
+  },
+  'Line_319' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem29bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem29bit/Constant'
+  },
+  'Line_348' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem29bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem29bit/Mult1'
+  },
+  'Line_37' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem27bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem27bit/Constant'
+  },
+  'Line_384' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem29bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem29bit/Mult2'
+  },
+  'Line_418' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem29bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem29bit/addsub1'
+  },
+  'Line_452' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem30bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem30bit/CORDIC16'
+  },
+  'Line_460' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem30bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem30bit/Constant'
+  },
+  'Line_489' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem30bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem30bit/Mult1'
+  },
+  'Line_525' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem30bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem30bit/Mult2'
+  },
+  'Line_559' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem30bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem30bit/addsub1'
+  },
+  'Line_593' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem31bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem31bit/CORDIC16'
+  },
+  'Line_601' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem31bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem31bit/Constant'
+  },
+  'Line_630' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem31bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem31bit/Mult1'
+  },
+  'Line_66' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem27bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem27bit/Mult1'
+  },
+  'Line_666' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem31bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem31bit/Mult2'
+  },
+  'Line_700' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem31bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem31bit/addsub1'
+  },
+  'Line_734' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem32bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem32bit/CORDIC16'
+  },
+  'Line_742' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem32bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem32bit/Constant'
+  },
+  'Line_771' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem32bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem32bit/Mult1'
+  },
+  'Line_807' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem32bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem32bit/Mult2'
+  },
+  'Line_841' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem32bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem32bit/addsub1'
+  },
+  'Line_915' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem27bit',
+    'Instance' => 'subsystem27bit',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem27bit'
+  },
+  'Line_922' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem28bit',
+    'Instance' => 'subsystem28bit',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem28bit'
+  },
+  'Line_929' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem29bit',
+    'Instance' => 'subsystem29bit',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem29bit'
+  },
+  'Line_936' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem30bit',
+    'Instance' => 'subsystem30bit',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem30bit'
+  },
+  'Line_943' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem31bit',
+    'Instance' => 'subsystem31bit',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem31bit'
+  },
+  'Line_950' => {
+    'CodeInstance' => 'cordic_max_fixpt27_32_struct/total32/subsystem32bit',
+    'Instance' => 'subsystem32bit',
+    'SimulinkInstance' => 'cordic_max_fixpt27_32/total32/Subsystem32bit'
+  }
+}

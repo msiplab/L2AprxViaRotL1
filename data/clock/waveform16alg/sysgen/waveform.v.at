@@ -1,0 +1,3047 @@
+{
+  'Line_1004' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom3',
+    'Instance' => 'rom3',
+    'SimulinkInstance' => 'waveform/pca10/ROM3'
+  },
+  'Line_1018' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom4',
+    'Instance' => 'rom4',
+    'SimulinkInstance' => 'waveform/pca10/ROM4'
+  },
+  'Line_102' => {
+    'CodeInstance' => 'waveform_struct/cordic_max/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'waveform/cordic_max/Mult2'
+  },
+  'Line_1032' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom5',
+    'Instance' => 'rom5',
+    'SimulinkInstance' => 'waveform/pca10/ROM5'
+  },
+  'Line_1046' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom6',
+    'Instance' => 'rom6',
+    'SimulinkInstance' => 'waveform/pca10/ROM6'
+  },
+  'Line_1060' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom7',
+    'Instance' => 'rom7',
+    'SimulinkInstance' => 'waveform/pca10/ROM7'
+  },
+  'Line_1074' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom8',
+    'Instance' => 'rom8',
+    'SimulinkInstance' => 'waveform/pca10/ROM8'
+  },
+  'Line_1088' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom9',
+    'Instance' => 'rom9',
+    'SimulinkInstance' => 'waveform/pca10/ROM9'
+  },
+  'Line_1095' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational21',
+    'Instance' => 'relational21',
+    'SimulinkInstance' => 'waveform/pca10/Relational21'
+  },
+  'Line_1103' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational24',
+    'Instance' => 'relational24',
+    'SimulinkInstance' => 'waveform/pca10/Relational24'
+  },
+  'Line_1111' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational25',
+    'Instance' => 'relational25',
+    'SimulinkInstance' => 'waveform/pca10/Relational25'
+  },
+  'Line_1119' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational26',
+    'Instance' => 'relational26',
+    'SimulinkInstance' => 'waveform/pca10/Relational26'
+  },
+  'Line_1127' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational27',
+    'Instance' => 'relational27',
+    'SimulinkInstance' => 'waveform/pca10/Relational27'
+  },
+  'Line_1135' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational28',
+    'Instance' => 'relational28',
+    'SimulinkInstance' => 'waveform/pca10/Relational28'
+  },
+  'Line_1143' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational29',
+    'Instance' => 'relational29',
+    'SimulinkInstance' => 'waveform/pca10/Relational29'
+  },
+  'Line_1151' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational3',
+    'Instance' => 'relational3',
+    'SimulinkInstance' => 'waveform/pca10/Relational3'
+  },
+  'Line_1159' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational30',
+    'Instance' => 'relational30',
+    'SimulinkInstance' => 'waveform/pca10/Relational30'
+  },
+  'Line_1167' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational37',
+    'Instance' => 'relational37',
+    'SimulinkInstance' => 'waveform/pca10/Relational37'
+  },
+  'Line_1175' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational38',
+    'Instance' => 'relational38',
+    'SimulinkInstance' => 'waveform/pca10/Relational38'
+  },
+  'Line_1183' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational4',
+    'Instance' => 'relational4',
+    'SimulinkInstance' => 'waveform/pca10/Relational4'
+  },
+  'Line_1191' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational5',
+    'Instance' => 'relational5',
+    'SimulinkInstance' => 'waveform/pca10/Relational5'
+  },
+  'Line_1199' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational6',
+    'Instance' => 'relational6',
+    'SimulinkInstance' => 'waveform/pca10/Relational6'
+  },
+  'Line_1207' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational7',
+    'Instance' => 'relational7',
+    'SimulinkInstance' => 'waveform/pca10/Relational7'
+  },
+  'Line_1215' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational8',
+    'Instance' => 'relational8',
+    'SimulinkInstance' => 'waveform/pca10/Relational8'
+  },
+  'Line_1223' => {
+    'CodeInstance' => 'waveform_struct/pca10/relational9',
+    'Instance' => 'relational9',
+    'SimulinkInstance' => 'waveform/pca10/Relational9'
+  },
+  'Line_1231' => {
+    'CodeInstance' => 'waveform_struct/pca10/scaling',
+    'Instance' => 'scaling',
+    'SimulinkInstance' => 'waveform/pca10/Scaling'
+  },
+  'Line_1244' => {
+    'CodeInstance' => 'waveform_struct/pca10/slice',
+    'Instance' => 'slice',
+    'SimulinkInstance' => 'waveform/pca10/Slice'
+  },
+  'Line_1254' => {
+    'CodeInstance' => 'waveform_struct/pca10/slice1',
+    'Instance' => 'slice1',
+    'SimulinkInstance' => 'waveform/pca10/Slice1'
+  },
+  'Line_1264' => {
+    'CodeInstance' => 'waveform_struct/pca10/slice2',
+    'Instance' => 'slice2',
+    'SimulinkInstance' => 'waveform/pca10/Slice2'
+  },
+  'Line_1274' => {
+    'CodeInstance' => 'waveform_struct/pca10/slice3',
+    'Instance' => 'slice3',
+    'SimulinkInstance' => 'waveform/pca10/Slice3'
+  },
+  'Line_1299' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/pca10/addsub1'
+  },
+  'Line_1329' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub10',
+    'Instance' => 'addsub10',
+    'SimulinkInstance' => 'waveform/pca10/addsub10'
+  },
+  'Line_1359' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub11',
+    'Instance' => 'addsub11',
+    'SimulinkInstance' => 'waveform/pca10/addsub11'
+  },
+  'Line_136' => {
+    'CodeInstance' => 'waveform_struct/cordic_max/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/cordic_max/addsub1'
+  },
+  'Line_1389' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub12',
+    'Instance' => 'addsub12',
+    'SimulinkInstance' => 'waveform/pca10/addsub12'
+  },
+  'Line_1419' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub13',
+    'Instance' => 'addsub13',
+    'SimulinkInstance' => 'waveform/pca10/addsub13'
+  },
+  'Line_1449' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub14',
+    'Instance' => 'addsub14',
+    'SimulinkInstance' => 'waveform/pca10/addsub14'
+  },
+  'Line_1479' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub15',
+    'Instance' => 'addsub15',
+    'SimulinkInstance' => 'waveform/pca10/addsub15'
+  },
+  'Line_1509' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub16',
+    'Instance' => 'addsub16',
+    'SimulinkInstance' => 'waveform/pca10/addsub16'
+  },
+  'Line_1539' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub17',
+    'Instance' => 'addsub17',
+    'SimulinkInstance' => 'waveform/pca10/addsub17'
+  },
+  'Line_1569' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub18',
+    'Instance' => 'addsub18',
+    'SimulinkInstance' => 'waveform/pca10/addsub18'
+  },
+  'Line_1599' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub19',
+    'Instance' => 'addsub19',
+    'SimulinkInstance' => 'waveform/pca10/addsub19'
+  },
+  'Line_1629' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'waveform/pca10/addsub2'
+  },
+  'Line_1659' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub20',
+    'Instance' => 'addsub20',
+    'SimulinkInstance' => 'waveform/pca10/addsub20'
+  },
+  'Line_1689' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub21',
+    'Instance' => 'addsub21',
+    'SimulinkInstance' => 'waveform/pca10/addsub21'
+  },
+  'Line_170' => {
+    'CodeInstance' => 'waveform_struct/cordic_nop/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'waveform/cordic_nop/CORDIC16'
+  },
+  'Line_1719' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub22',
+    'Instance' => 'addsub22',
+    'SimulinkInstance' => 'waveform/pca10/addsub22'
+  },
+  'Line_1749' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub23',
+    'Instance' => 'addsub23',
+    'SimulinkInstance' => 'waveform/pca10/addsub23'
+  },
+  'Line_176' => {
+    'CodeInstance' => 'waveform_struct/cordic_nop/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'waveform/cordic_nop/Constant'
+  },
+  'Line_1779' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'waveform/pca10/addsub3'
+  },
+  'Line_1809' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'waveform/pca10/addsub4'
+  },
+  'Line_1839' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'waveform/pca10/addsub5'
+  },
+  'Line_1869' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub6',
+    'Instance' => 'addsub6',
+    'SimulinkInstance' => 'waveform/pca10/addsub6'
+  },
+  'Line_1899' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub7',
+    'Instance' => 'addsub7',
+    'SimulinkInstance' => 'waveform/pca10/addsub7'
+  },
+  'Line_1929' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub8',
+    'Instance' => 'addsub8',
+    'SimulinkInstance' => 'waveform/pca10/addsub8'
+  },
+  'Line_1959' => {
+    'CodeInstance' => 'waveform_struct/pca10/addsub9',
+    'Instance' => 'addsub9',
+    'SimulinkInstance' => 'waveform/pca10/addsub9'
+  },
+  'Line_1968' => {
+    'CodeInstance' => 'waveform_struct/pca10/bool1',
+    'Instance' => 'bool1',
+    'SimulinkInstance' => 'waveform/pca10/bool1'
+  },
+  'Line_1976' => {
+    'CodeInstance' => 'waveform_struct/pca10/bool2',
+    'Instance' => 'bool2',
+    'SimulinkInstance' => 'waveform/pca10/bool2'
+  },
+  'Line_1984' => {
+    'CodeInstance' => 'waveform_struct/pca10/bool3',
+    'Instance' => 'bool3',
+    'SimulinkInstance' => 'waveform/pca10/bool3'
+  },
+  'Line_1992' => {
+    'CodeInstance' => 'waveform_struct/pca10/bool4',
+    'Instance' => 'bool4',
+    'SimulinkInstance' => 'waveform/pca10/bool4'
+  },
+  'Line_2000' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b0',
+    'Instance' => 'logi_b0',
+    'SimulinkInstance' => 'waveform/pca10/logi_b0'
+  },
+  'Line_2006' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b1',
+    'Instance' => 'logi_b1',
+    'SimulinkInstance' => 'waveform/pca10/logi_b1'
+  },
+  'Line_2012' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b2',
+    'Instance' => 'logi_b2',
+    'SimulinkInstance' => 'waveform/pca10/logi_b2'
+  },
+  'Line_2018' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b3',
+    'Instance' => 'logi_b3',
+    'SimulinkInstance' => 'waveform/pca10/logi_b3'
+  },
+  'Line_2024' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b4',
+    'Instance' => 'logi_b4',
+    'SimulinkInstance' => 'waveform/pca10/logi_b4'
+  },
+  'Line_2030' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b5',
+    'Instance' => 'logi_b5',
+    'SimulinkInstance' => 'waveform/pca10/logi_b5'
+  },
+  'Line_2036' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b6',
+    'Instance' => 'logi_b6',
+    'SimulinkInstance' => 'waveform/pca10/logi_b6'
+  },
+  'Line_2042' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b7',
+    'Instance' => 'logi_b7',
+    'SimulinkInstance' => 'waveform/pca10/logi_b7'
+  },
+  'Line_2048' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b8',
+    'Instance' => 'logi_b8',
+    'SimulinkInstance' => 'waveform/pca10/logi_b8'
+  },
+  'Line_205' => {
+    'CodeInstance' => 'waveform_struct/cordic_nop/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'waveform/cordic_nop/Mult1'
+  },
+  'Line_2054' => {
+    'CodeInstance' => 'waveform_struct/pca10/logi_b9',
+    'Instance' => 'logi_b9',
+    'SimulinkInstance' => 'waveform/pca10/logi_b9'
+  },
+  'Line_2060' => {
+    'CodeInstance' => 'waveform_struct/pca10/logical_x0',
+    'Instance' => 'logical_x0',
+    'SimulinkInstance' => 'waveform/pca10/logical_x0'
+  },
+  'Line_2069' => {
+    'CodeInstance' => 'waveform_struct/pca10/logical_y0',
+    'Instance' => 'logical_y0',
+    'SimulinkInstance' => 'waveform/pca10/logical_y0'
+  },
+  'Line_241' => {
+    'CodeInstance' => 'waveform_struct/cordic_nop/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'waveform/cordic_nop/Mult2'
+  },
+  'Line_2505' => {
+    'CodeInstance' => 'waveform_struct/pca50/cmult',
+    'Instance' => 'cmult',
+    'SimulinkInstance' => 'waveform/pca50/CMult'
+  },
+  'Line_2517' => {
+    'CodeInstance' => 'waveform_struct/pca50/concat',
+    'Instance' => 'concat',
+    'SimulinkInstance' => 'waveform/pca50/Concat'
+  },
+  'Line_2539' => {
+    'CodeInstance' => 'waveform_struct/pca50/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'waveform/pca50/Constant'
+  },
+  'Line_2545' => {
+    'CodeInstance' => 'waveform_struct/pca50/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'waveform/pca50/Constant1'
+  },
+  'Line_2551' => {
+    'CodeInstance' => 'waveform_struct/pca50/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'waveform/pca50/Constant2'
+  },
+  'Line_2557' => {
+    'CodeInstance' => 'waveform_struct/pca50/constant3',
+    'Instance' => 'constant3',
+    'SimulinkInstance' => 'waveform/pca50/Constant3'
+  },
+  'Line_2563' => {
+    'CodeInstance' => 'waveform_struct/pca50/constant5',
+    'Instance' => 'constant5',
+    'SimulinkInstance' => 'waveform/pca50/Constant5'
+  },
+  'Line_2569' => {
+    'CodeInstance' => 'waveform_struct/pca50/constant6',
+    'Instance' => 'constant6',
+    'SimulinkInstance' => 'waveform/pca50/Constant6'
+  },
+  'Line_2575' => {
+    'CodeInstance' => 'waveform_struct/pca50/constant7',
+    'Instance' => 'constant7',
+    'SimulinkInstance' => 'waveform/pca50/Constant7'
+  },
+  'Line_2581' => {
+    'CodeInstance' => 'waveform_struct/pca50/negate',
+    'Instance' => 'negate',
+    'SimulinkInstance' => 'waveform/pca50/Negate'
+  },
+  'Line_2595' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom1',
+    'Instance' => 'rom1',
+    'SimulinkInstance' => 'waveform/pca50/ROM1'
+  },
+  'Line_2609' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom10',
+    'Instance' => 'rom10',
+    'SimulinkInstance' => 'waveform/pca50/ROM10'
+  },
+  'Line_2623' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom11',
+    'Instance' => 'rom11',
+    'SimulinkInstance' => 'waveform/pca50/ROM11'
+  },
+  'Line_2637' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom12',
+    'Instance' => 'rom12',
+    'SimulinkInstance' => 'waveform/pca50/ROM12'
+  },
+  'Line_2651' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom13',
+    'Instance' => 'rom13',
+    'SimulinkInstance' => 'waveform/pca50/ROM13'
+  },
+  'Line_2665' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom14',
+    'Instance' => 'rom14',
+    'SimulinkInstance' => 'waveform/pca50/ROM14'
+  },
+  'Line_2679' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom15',
+    'Instance' => 'rom15',
+    'SimulinkInstance' => 'waveform/pca50/ROM15'
+  },
+  'Line_2693' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom16',
+    'Instance' => 'rom16',
+    'SimulinkInstance' => 'waveform/pca50/ROM16'
+  },
+  'Line_2707' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom2',
+    'Instance' => 'rom2',
+    'SimulinkInstance' => 'waveform/pca50/ROM2'
+  },
+  'Line_2721' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom3',
+    'Instance' => 'rom3',
+    'SimulinkInstance' => 'waveform/pca50/ROM3'
+  },
+  'Line_2735' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom4',
+    'Instance' => 'rom4',
+    'SimulinkInstance' => 'waveform/pca50/ROM4'
+  },
+  'Line_2749' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom5',
+    'Instance' => 'rom5',
+    'SimulinkInstance' => 'waveform/pca50/ROM5'
+  },
+  'Line_275' => {
+    'CodeInstance' => 'waveform_struct/cordic_nop/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/cordic_nop/addsub1'
+  },
+  'Line_2763' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom6',
+    'Instance' => 'rom6',
+    'SimulinkInstance' => 'waveform/pca50/ROM6'
+  },
+  'Line_2777' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom7',
+    'Instance' => 'rom7',
+    'SimulinkInstance' => 'waveform/pca50/ROM7'
+  },
+  'Line_2791' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom8',
+    'Instance' => 'rom8',
+    'SimulinkInstance' => 'waveform/pca50/ROM8'
+  },
+  'Line_2805' => {
+    'CodeInstance' => 'waveform_struct/pca50/rom9',
+    'Instance' => 'rom9',
+    'SimulinkInstance' => 'waveform/pca50/ROM9'
+  },
+  'Line_2812' => {
+    'CodeInstance' => 'waveform_struct/pca50/scaling',
+    'Instance' => 'scaling',
+    'SimulinkInstance' => 'waveform/pca50/Scaling'
+  },
+  'Line_2825' => {
+    'CodeInstance' => 'waveform_struct/pca50/slice',
+    'Instance' => 'slice',
+    'SimulinkInstance' => 'waveform/pca50/Slice'
+  },
+  'Line_2835' => {
+    'CodeInstance' => 'waveform_struct/pca50/slice1',
+    'Instance' => 'slice1',
+    'SimulinkInstance' => 'waveform/pca50/Slice1'
+  },
+  'Line_2845' => {
+    'CodeInstance' => 'waveform_struct/pca50/slice2',
+    'Instance' => 'slice2',
+    'SimulinkInstance' => 'waveform/pca50/Slice2'
+  },
+  'Line_2855' => {
+    'CodeInstance' => 'waveform_struct/pca50/slice3',
+    'Instance' => 'slice3',
+    'SimulinkInstance' => 'waveform/pca50/Slice3'
+  },
+  'Line_2880' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/pca50/addsub1'
+  },
+  'Line_29' => {
+    'CodeInstance' => 'waveform_struct/cordic_max/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'waveform/cordic_max/CORDIC16'
+  },
+  'Line_2910' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub10',
+    'Instance' => 'addsub10',
+    'SimulinkInstance' => 'waveform/pca50/addsub10'
+  },
+  'Line_2940' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub100',
+    'Instance' => 'addsub100',
+    'SimulinkInstance' => 'waveform/pca50/addsub100'
+  },
+  'Line_2970' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub101',
+    'Instance' => 'addsub101',
+    'SimulinkInstance' => 'waveform/pca50/addsub101'
+  },
+  'Line_3000' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub102',
+    'Instance' => 'addsub102',
+    'SimulinkInstance' => 'waveform/pca50/addsub102'
+  },
+  'Line_3030' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub103',
+    'Instance' => 'addsub103',
+    'SimulinkInstance' => 'waveform/pca50/addsub103'
+  },
+  'Line_3060' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub11',
+    'Instance' => 'addsub11',
+    'SimulinkInstance' => 'waveform/pca50/addsub11'
+  },
+  'Line_309' => {
+    'CodeInstance' => 'waveform_struct/cordic_opt/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'waveform/cordic_opt/CORDIC16'
+  },
+  'Line_3090' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub12',
+    'Instance' => 'addsub12',
+    'SimulinkInstance' => 'waveform/pca50/addsub12'
+  },
+  'Line_3120' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub13',
+    'Instance' => 'addsub13',
+    'SimulinkInstance' => 'waveform/pca50/addsub13'
+  },
+  'Line_3150' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub14',
+    'Instance' => 'addsub14',
+    'SimulinkInstance' => 'waveform/pca50/addsub14'
+  },
+  'Line_317' => {
+    'CodeInstance' => 'waveform_struct/cordic_opt/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'waveform/cordic_opt/Constant'
+  },
+  'Line_3180' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub15',
+    'Instance' => 'addsub15',
+    'SimulinkInstance' => 'waveform/pca50/addsub15'
+  },
+  'Line_3210' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub16',
+    'Instance' => 'addsub16',
+    'SimulinkInstance' => 'waveform/pca50/addsub16'
+  },
+  'Line_3240' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub17',
+    'Instance' => 'addsub17',
+    'SimulinkInstance' => 'waveform/pca50/addsub17'
+  },
+  'Line_3270' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub18',
+    'Instance' => 'addsub18',
+    'SimulinkInstance' => 'waveform/pca50/addsub18'
+  },
+  'Line_3300' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub19',
+    'Instance' => 'addsub19',
+    'SimulinkInstance' => 'waveform/pca50/addsub19'
+  },
+  'Line_3330' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'waveform/pca50/addsub2'
+  },
+  'Line_3360' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub20',
+    'Instance' => 'addsub20',
+    'SimulinkInstance' => 'waveform/pca50/addsub20'
+  },
+  'Line_3390' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub21',
+    'Instance' => 'addsub21',
+    'SimulinkInstance' => 'waveform/pca50/addsub21'
+  },
+  'Line_3420' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub22',
+    'Instance' => 'addsub22',
+    'SimulinkInstance' => 'waveform/pca50/addsub22'
+  },
+  'Line_3450' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub23',
+    'Instance' => 'addsub23',
+    'SimulinkInstance' => 'waveform/pca50/addsub23'
+  },
+  'Line_346' => {
+    'CodeInstance' => 'waveform_struct/cordic_opt/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'waveform/cordic_opt/Mult1'
+  },
+  'Line_3480' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub24',
+    'Instance' => 'addsub24',
+    'SimulinkInstance' => 'waveform/pca50/addsub24'
+  },
+  'Line_3510' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub25',
+    'Instance' => 'addsub25',
+    'SimulinkInstance' => 'waveform/pca50/addsub25'
+  },
+  'Line_3540' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub26',
+    'Instance' => 'addsub26',
+    'SimulinkInstance' => 'waveform/pca50/addsub26'
+  },
+  'Line_3570' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub27',
+    'Instance' => 'addsub27',
+    'SimulinkInstance' => 'waveform/pca50/addsub27'
+  },
+  'Line_3600' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub28',
+    'Instance' => 'addsub28',
+    'SimulinkInstance' => 'waveform/pca50/addsub28'
+  },
+  'Line_3630' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub29',
+    'Instance' => 'addsub29',
+    'SimulinkInstance' => 'waveform/pca50/addsub29'
+  },
+  'Line_3660' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'waveform/pca50/addsub3'
+  },
+  'Line_3690' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub30',
+    'Instance' => 'addsub30',
+    'SimulinkInstance' => 'waveform/pca50/addsub30'
+  },
+  'Line_37' => {
+    'CodeInstance' => 'waveform_struct/cordic_max/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'waveform/cordic_max/Constant'
+  },
+  'Line_3720' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub31',
+    'Instance' => 'addsub31',
+    'SimulinkInstance' => 'waveform/pca50/addsub31'
+  },
+  'Line_3750' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub32',
+    'Instance' => 'addsub32',
+    'SimulinkInstance' => 'waveform/pca50/addsub32'
+  },
+  'Line_3780' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub33',
+    'Instance' => 'addsub33',
+    'SimulinkInstance' => 'waveform/pca50/addsub33'
+  },
+  'Line_3810' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub34',
+    'Instance' => 'addsub34',
+    'SimulinkInstance' => 'waveform/pca50/addsub34'
+  },
+  'Line_382' => {
+    'CodeInstance' => 'waveform_struct/cordic_opt/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'waveform/cordic_opt/Mult2'
+  },
+  'Line_3840' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub35',
+    'Instance' => 'addsub35',
+    'SimulinkInstance' => 'waveform/pca50/addsub35'
+  },
+  'Line_3870' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub36',
+    'Instance' => 'addsub36',
+    'SimulinkInstance' => 'waveform/pca50/addsub36'
+  },
+  'Line_3900' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub37',
+    'Instance' => 'addsub37',
+    'SimulinkInstance' => 'waveform/pca50/addsub37'
+  },
+  'Line_3930' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub38',
+    'Instance' => 'addsub38',
+    'SimulinkInstance' => 'waveform/pca50/addsub38'
+  },
+  'Line_3960' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub39',
+    'Instance' => 'addsub39',
+    'SimulinkInstance' => 'waveform/pca50/addsub39'
+  },
+  'Line_3990' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'waveform/pca50/addsub4'
+  },
+  'Line_4020' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub40',
+    'Instance' => 'addsub40',
+    'SimulinkInstance' => 'waveform/pca50/addsub40'
+  },
+  'Line_4050' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub41',
+    'Instance' => 'addsub41',
+    'SimulinkInstance' => 'waveform/pca50/addsub41'
+  },
+  'Line_4080' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub42',
+    'Instance' => 'addsub42',
+    'SimulinkInstance' => 'waveform/pca50/addsub42'
+  },
+  'Line_4110' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub43',
+    'Instance' => 'addsub43',
+    'SimulinkInstance' => 'waveform/pca50/addsub43'
+  },
+  'Line_4140' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub44',
+    'Instance' => 'addsub44',
+    'SimulinkInstance' => 'waveform/pca50/addsub44'
+  },
+  'Line_416' => {
+    'CodeInstance' => 'waveform_struct/cordic_opt/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/cordic_opt/addsub1'
+  },
+  'Line_4170' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub45',
+    'Instance' => 'addsub45',
+    'SimulinkInstance' => 'waveform/pca50/addsub45'
+  },
+  'Line_4200' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub46',
+    'Instance' => 'addsub46',
+    'SimulinkInstance' => 'waveform/pca50/addsub46'
+  },
+  'Line_4230' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub47',
+    'Instance' => 'addsub47',
+    'SimulinkInstance' => 'waveform/pca50/addsub47'
+  },
+  'Line_4260' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub48',
+    'Instance' => 'addsub48',
+    'SimulinkInstance' => 'waveform/pca50/addsub48'
+  },
+  'Line_4290' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub49',
+    'Instance' => 'addsub49',
+    'SimulinkInstance' => 'waveform/pca50/addsub49'
+  },
+  'Line_4320' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'waveform/pca50/addsub5'
+  },
+  'Line_4350' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub50',
+    'Instance' => 'addsub50',
+    'SimulinkInstance' => 'waveform/pca50/addsub50'
+  },
+  'Line_4380' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub51',
+    'Instance' => 'addsub51',
+    'SimulinkInstance' => 'waveform/pca50/addsub51'
+  },
+  'Line_4410' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub52',
+    'Instance' => 'addsub52',
+    'SimulinkInstance' => 'waveform/pca50/addsub52'
+  },
+  'Line_4440' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub53',
+    'Instance' => 'addsub53',
+    'SimulinkInstance' => 'waveform/pca50/addsub53'
+  },
+  'Line_4470' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub54',
+    'Instance' => 'addsub54',
+    'SimulinkInstance' => 'waveform/pca50/addsub54'
+  },
+  'Line_4500' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub55',
+    'Instance' => 'addsub55',
+    'SimulinkInstance' => 'waveform/pca50/addsub55'
+  },
+  'Line_4530' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub56',
+    'Instance' => 'addsub56',
+    'SimulinkInstance' => 'waveform/pca50/addsub56'
+  },
+  'Line_4560' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub57',
+    'Instance' => 'addsub57',
+    'SimulinkInstance' => 'waveform/pca50/addsub57'
+  },
+  'Line_4590' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub58',
+    'Instance' => 'addsub58',
+    'SimulinkInstance' => 'waveform/pca50/addsub58'
+  },
+  'Line_4620' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub59',
+    'Instance' => 'addsub59',
+    'SimulinkInstance' => 'waveform/pca50/addsub59'
+  },
+  'Line_4650' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub6',
+    'Instance' => 'addsub6',
+    'SimulinkInstance' => 'waveform/pca50/addsub6'
+  },
+  'Line_4680' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub60',
+    'Instance' => 'addsub60',
+    'SimulinkInstance' => 'waveform/pca50/addsub60'
+  },
+  'Line_4710' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub61',
+    'Instance' => 'addsub61',
+    'SimulinkInstance' => 'waveform/pca50/addsub61'
+  },
+  'Line_4740' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub62',
+    'Instance' => 'addsub62',
+    'SimulinkInstance' => 'waveform/pca50/addsub62'
+  },
+  'Line_4770' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub63',
+    'Instance' => 'addsub63',
+    'SimulinkInstance' => 'waveform/pca50/addsub63'
+  },
+  'Line_4800' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub64',
+    'Instance' => 'addsub64',
+    'SimulinkInstance' => 'waveform/pca50/addsub64'
+  },
+  'Line_4830' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub65',
+    'Instance' => 'addsub65',
+    'SimulinkInstance' => 'waveform/pca50/addsub65'
+  },
+  'Line_4860' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub66',
+    'Instance' => 'addsub66',
+    'SimulinkInstance' => 'waveform/pca50/addsub66'
+  },
+  'Line_4890' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub67',
+    'Instance' => 'addsub67',
+    'SimulinkInstance' => 'waveform/pca50/addsub67'
+  },
+  'Line_4920' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub68',
+    'Instance' => 'addsub68',
+    'SimulinkInstance' => 'waveform/pca50/addsub68'
+  },
+  'Line_4950' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub69',
+    'Instance' => 'addsub69',
+    'SimulinkInstance' => 'waveform/pca50/addsub69'
+  },
+  'Line_4980' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub7',
+    'Instance' => 'addsub7',
+    'SimulinkInstance' => 'waveform/pca50/addsub7'
+  },
+  'Line_5010' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub70',
+    'Instance' => 'addsub70',
+    'SimulinkInstance' => 'waveform/pca50/addsub70'
+  },
+  'Line_5040' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub71',
+    'Instance' => 'addsub71',
+    'SimulinkInstance' => 'waveform/pca50/addsub71'
+  },
+  'Line_5070' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub72',
+    'Instance' => 'addsub72',
+    'SimulinkInstance' => 'waveform/pca50/addsub72'
+  },
+  'Line_5100' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub73',
+    'Instance' => 'addsub73',
+    'SimulinkInstance' => 'waveform/pca50/addsub73'
+  },
+  'Line_5130' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub74',
+    'Instance' => 'addsub74',
+    'SimulinkInstance' => 'waveform/pca50/addsub74'
+  },
+  'Line_5160' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub75',
+    'Instance' => 'addsub75',
+    'SimulinkInstance' => 'waveform/pca50/addsub75'
+  },
+  'Line_5190' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub76',
+    'Instance' => 'addsub76',
+    'SimulinkInstance' => 'waveform/pca50/addsub76'
+  },
+  'Line_5220' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub77',
+    'Instance' => 'addsub77',
+    'SimulinkInstance' => 'waveform/pca50/addsub77'
+  },
+  'Line_5250' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub78',
+    'Instance' => 'addsub78',
+    'SimulinkInstance' => 'waveform/pca50/addsub78'
+  },
+  'Line_5280' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub79',
+    'Instance' => 'addsub79',
+    'SimulinkInstance' => 'waveform/pca50/addsub79'
+  },
+  'Line_5310' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub8',
+    'Instance' => 'addsub8',
+    'SimulinkInstance' => 'waveform/pca50/addsub8'
+  },
+  'Line_5340' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub80',
+    'Instance' => 'addsub80',
+    'SimulinkInstance' => 'waveform/pca50/addsub80'
+  },
+  'Line_5370' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub81',
+    'Instance' => 'addsub81',
+    'SimulinkInstance' => 'waveform/pca50/addsub81'
+  },
+  'Line_5400' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub82',
+    'Instance' => 'addsub82',
+    'SimulinkInstance' => 'waveform/pca50/addsub82'
+  },
+  'Line_5430' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub83',
+    'Instance' => 'addsub83',
+    'SimulinkInstance' => 'waveform/pca50/addsub83'
+  },
+  'Line_5460' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub84',
+    'Instance' => 'addsub84',
+    'SimulinkInstance' => 'waveform/pca50/addsub84'
+  },
+  'Line_5490' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub85',
+    'Instance' => 'addsub85',
+    'SimulinkInstance' => 'waveform/pca50/addsub85'
+  },
+  'Line_5520' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub86',
+    'Instance' => 'addsub86',
+    'SimulinkInstance' => 'waveform/pca50/addsub86'
+  },
+  'Line_5550' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub87',
+    'Instance' => 'addsub87',
+    'SimulinkInstance' => 'waveform/pca50/addsub87'
+  },
+  'Line_5580' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub88',
+    'Instance' => 'addsub88',
+    'SimulinkInstance' => 'waveform/pca50/addsub88'
+  },
+  'Line_5610' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub89',
+    'Instance' => 'addsub89',
+    'SimulinkInstance' => 'waveform/pca50/addsub89'
+  },
+  'Line_5640' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub9',
+    'Instance' => 'addsub9',
+    'SimulinkInstance' => 'waveform/pca50/addsub9'
+  },
+  'Line_5670' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub90',
+    'Instance' => 'addsub90',
+    'SimulinkInstance' => 'waveform/pca50/addsub90'
+  },
+  'Line_5700' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub91',
+    'Instance' => 'addsub91',
+    'SimulinkInstance' => 'waveform/pca50/addsub91'
+  },
+  'Line_572' => {
+    'CodeInstance' => 'waveform_struct/pca10/cmult1',
+    'Instance' => 'cmult1',
+    'SimulinkInstance' => 'waveform/pca10/CMult1'
+  },
+  'Line_5730' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub92',
+    'Instance' => 'addsub92',
+    'SimulinkInstance' => 'waveform/pca50/addsub92'
+  },
+  'Line_5760' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub93',
+    'Instance' => 'addsub93',
+    'SimulinkInstance' => 'waveform/pca50/addsub93'
+  },
+  'Line_5790' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub94',
+    'Instance' => 'addsub94',
+    'SimulinkInstance' => 'waveform/pca50/addsub94'
+  },
+  'Line_5820' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub95',
+    'Instance' => 'addsub95',
+    'SimulinkInstance' => 'waveform/pca50/addsub95'
+  },
+  'Line_584' => {
+    'CodeInstance' => 'waveform_struct/pca10/concat',
+    'Instance' => 'concat',
+    'SimulinkInstance' => 'waveform/pca10/Concat'
+  },
+  'Line_5850' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub96',
+    'Instance' => 'addsub96',
+    'SimulinkInstance' => 'waveform/pca50/addsub96'
+  },
+  'Line_5880' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub97',
+    'Instance' => 'addsub97',
+    'SimulinkInstance' => 'waveform/pca50/addsub97'
+  },
+  'Line_5910' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub98',
+    'Instance' => 'addsub98',
+    'SimulinkInstance' => 'waveform/pca50/addsub98'
+  },
+  'Line_5940' => {
+    'CodeInstance' => 'waveform_struct/pca50/addsub99',
+    'Instance' => 'addsub99',
+    'SimulinkInstance' => 'waveform/pca50/addsub99'
+  },
+  'Line_5949' => {
+    'CodeInstance' => 'waveform_struct/pca50/bool1',
+    'Instance' => 'bool1',
+    'SimulinkInstance' => 'waveform/pca50/bool1'
+  },
+  'Line_5957' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b0',
+    'Instance' => 'logi_b0',
+    'SimulinkInstance' => 'waveform/pca50/logi_b0'
+  },
+  'Line_5963' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b1',
+    'Instance' => 'logi_b1',
+    'SimulinkInstance' => 'waveform/pca50/logi_b1'
+  },
+  'Line_5969' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b10',
+    'Instance' => 'logi_b10',
+    'SimulinkInstance' => 'waveform/pca50/logi_b10'
+  },
+  'Line_5975' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b11',
+    'Instance' => 'logi_b11',
+    'SimulinkInstance' => 'waveform/pca50/logi_b11'
+  },
+  'Line_5981' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b12',
+    'Instance' => 'logi_b12',
+    'SimulinkInstance' => 'waveform/pca50/logi_b12'
+  },
+  'Line_5987' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b13',
+    'Instance' => 'logi_b13',
+    'SimulinkInstance' => 'waveform/pca50/logi_b13'
+  },
+  'Line_5993' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b14',
+    'Instance' => 'logi_b14',
+    'SimulinkInstance' => 'waveform/pca50/logi_b14'
+  },
+  'Line_5999' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b15',
+    'Instance' => 'logi_b15',
+    'SimulinkInstance' => 'waveform/pca50/logi_b15'
+  },
+  'Line_6005' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b16',
+    'Instance' => 'logi_b16',
+    'SimulinkInstance' => 'waveform/pca50/logi_b16'
+  },
+  'Line_6011' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b17',
+    'Instance' => 'logi_b17',
+    'SimulinkInstance' => 'waveform/pca50/logi_b17'
+  },
+  'Line_6017' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b18',
+    'Instance' => 'logi_b18',
+    'SimulinkInstance' => 'waveform/pca50/logi_b18'
+  },
+  'Line_6023' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b19',
+    'Instance' => 'logi_b19',
+    'SimulinkInstance' => 'waveform/pca50/logi_b19'
+  },
+  'Line_6029' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b2',
+    'Instance' => 'logi_b2',
+    'SimulinkInstance' => 'waveform/pca50/logi_b2'
+  },
+  'Line_6035' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b20',
+    'Instance' => 'logi_b20',
+    'SimulinkInstance' => 'waveform/pca50/logi_b20'
+  },
+  'Line_6041' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b21',
+    'Instance' => 'logi_b21',
+    'SimulinkInstance' => 'waveform/pca50/logi_b21'
+  },
+  'Line_6047' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b22',
+    'Instance' => 'logi_b22',
+    'SimulinkInstance' => 'waveform/pca50/logi_b22'
+  },
+  'Line_6053' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b23',
+    'Instance' => 'logi_b23',
+    'SimulinkInstance' => 'waveform/pca50/logi_b23'
+  },
+  'Line_6059' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b24',
+    'Instance' => 'logi_b24',
+    'SimulinkInstance' => 'waveform/pca50/logi_b24'
+  },
+  'Line_606' => {
+    'CodeInstance' => 'waveform_struct/pca10/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'waveform/pca10/Constant'
+  },
+  'Line_6065' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b25',
+    'Instance' => 'logi_b25',
+    'SimulinkInstance' => 'waveform/pca50/logi_b25'
+  },
+  'Line_6071' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b26',
+    'Instance' => 'logi_b26',
+    'SimulinkInstance' => 'waveform/pca50/logi_b26'
+  },
+  'Line_6077' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b27',
+    'Instance' => 'logi_b27',
+    'SimulinkInstance' => 'waveform/pca50/logi_b27'
+  },
+  'Line_6083' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b28',
+    'Instance' => 'logi_b28',
+    'SimulinkInstance' => 'waveform/pca50/logi_b28'
+  },
+  'Line_6089' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b29',
+    'Instance' => 'logi_b29',
+    'SimulinkInstance' => 'waveform/pca50/logi_b29'
+  },
+  'Line_6095' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b3',
+    'Instance' => 'logi_b3',
+    'SimulinkInstance' => 'waveform/pca50/logi_b3'
+  },
+  'Line_6101' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b30',
+    'Instance' => 'logi_b30',
+    'SimulinkInstance' => 'waveform/pca50/logi_b30'
+  },
+  'Line_6107' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b31',
+    'Instance' => 'logi_b31',
+    'SimulinkInstance' => 'waveform/pca50/logi_b31'
+  },
+  'Line_6113' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b32',
+    'Instance' => 'logi_b32',
+    'SimulinkInstance' => 'waveform/pca50/logi_b32'
+  },
+  'Line_6119' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b33',
+    'Instance' => 'logi_b33',
+    'SimulinkInstance' => 'waveform/pca50/logi_b33'
+  },
+  'Line_612' => {
+    'CodeInstance' => 'waveform_struct/pca10/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'waveform/pca10/Constant1'
+  },
+  'Line_6125' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b34',
+    'Instance' => 'logi_b34',
+    'SimulinkInstance' => 'waveform/pca50/logi_b34'
+  },
+  'Line_6131' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b35',
+    'Instance' => 'logi_b35',
+    'SimulinkInstance' => 'waveform/pca50/logi_b35'
+  },
+  'Line_6137' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b36',
+    'Instance' => 'logi_b36',
+    'SimulinkInstance' => 'waveform/pca50/logi_b36'
+  },
+  'Line_6143' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b37',
+    'Instance' => 'logi_b37',
+    'SimulinkInstance' => 'waveform/pca50/logi_b37'
+  },
+  'Line_6149' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b38',
+    'Instance' => 'logi_b38',
+    'SimulinkInstance' => 'waveform/pca50/logi_b38'
+  },
+  'Line_6155' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b39',
+    'Instance' => 'logi_b39',
+    'SimulinkInstance' => 'waveform/pca50/logi_b39'
+  },
+  'Line_6161' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b4',
+    'Instance' => 'logi_b4',
+    'SimulinkInstance' => 'waveform/pca50/logi_b4'
+  },
+  'Line_6167' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b40',
+    'Instance' => 'logi_b40',
+    'SimulinkInstance' => 'waveform/pca50/logi_b40'
+  },
+  'Line_6173' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b41',
+    'Instance' => 'logi_b41',
+    'SimulinkInstance' => 'waveform/pca50/logi_b41'
+  },
+  'Line_6179' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b42',
+    'Instance' => 'logi_b42',
+    'SimulinkInstance' => 'waveform/pca50/logi_b42'
+  },
+  'Line_618' => {
+    'CodeInstance' => 'waveform_struct/pca10/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'waveform/pca10/Constant2'
+  },
+  'Line_6185' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b43',
+    'Instance' => 'logi_b43',
+    'SimulinkInstance' => 'waveform/pca50/logi_b43'
+  },
+  'Line_6191' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b44',
+    'Instance' => 'logi_b44',
+    'SimulinkInstance' => 'waveform/pca50/logi_b44'
+  },
+  'Line_6197' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b45',
+    'Instance' => 'logi_b45',
+    'SimulinkInstance' => 'waveform/pca50/logi_b45'
+  },
+  'Line_6203' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b46',
+    'Instance' => 'logi_b46',
+    'SimulinkInstance' => 'waveform/pca50/logi_b46'
+  },
+  'Line_6209' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b47',
+    'Instance' => 'logi_b47',
+    'SimulinkInstance' => 'waveform/pca50/logi_b47'
+  },
+  'Line_6215' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b48',
+    'Instance' => 'logi_b48',
+    'SimulinkInstance' => 'waveform/pca50/logi_b48'
+  },
+  'Line_6221' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b49',
+    'Instance' => 'logi_b49',
+    'SimulinkInstance' => 'waveform/pca50/logi_b49'
+  },
+  'Line_6227' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b5',
+    'Instance' => 'logi_b5',
+    'SimulinkInstance' => 'waveform/pca50/logi_b5'
+  },
+  'Line_6233' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b6',
+    'Instance' => 'logi_b6',
+    'SimulinkInstance' => 'waveform/pca50/logi_b6'
+  },
+  'Line_6239' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b7',
+    'Instance' => 'logi_b7',
+    'SimulinkInstance' => 'waveform/pca50/logi_b7'
+  },
+  'Line_624' => {
+    'CodeInstance' => 'waveform_struct/pca10/constant3',
+    'Instance' => 'constant3',
+    'SimulinkInstance' => 'waveform/pca10/Constant3'
+  },
+  'Line_6245' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b8',
+    'Instance' => 'logi_b8',
+    'SimulinkInstance' => 'waveform/pca50/logi_b8'
+  },
+  'Line_6251' => {
+    'CodeInstance' => 'waveform_struct/pca50/logi_b9',
+    'Instance' => 'logi_b9',
+    'SimulinkInstance' => 'waveform/pca50/logi_b9'
+  },
+  'Line_6280' => {
+    'CodeInstance' => 'waveform_struct/pca50/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'waveform/pca50/mult1'
+  },
+  'Line_6293' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux1',
+    'Instance' => 'mux1',
+    'SimulinkInstance' => 'waveform/pca50/mux1'
+  },
+  'Line_630' => {
+    'CodeInstance' => 'waveform_struct/pca10/constant5',
+    'Instance' => 'constant5',
+    'SimulinkInstance' => 'waveform/pca10/Constant5'
+  },
+  'Line_6302' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux10',
+    'Instance' => 'mux10',
+    'SimulinkInstance' => 'waveform/pca50/mux10'
+  },
+  'Line_6311' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux100',
+    'Instance' => 'mux100',
+    'SimulinkInstance' => 'waveform/pca50/mux100'
+  },
+  'Line_6320' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux101',
+    'Instance' => 'mux101',
+    'SimulinkInstance' => 'waveform/pca50/mux101'
+  },
+  'Line_6329' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux102',
+    'Instance' => 'mux102',
+    'SimulinkInstance' => 'waveform/pca50/mux102'
+  },
+  'Line_6338' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux11',
+    'Instance' => 'mux11',
+    'SimulinkInstance' => 'waveform/pca50/mux11'
+  },
+  'Line_6347' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux12',
+    'Instance' => 'mux12',
+    'SimulinkInstance' => 'waveform/pca50/mux12'
+  },
+  'Line_6356' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux13',
+    'Instance' => 'mux13',
+    'SimulinkInstance' => 'waveform/pca50/mux13'
+  },
+  'Line_636' => {
+    'CodeInstance' => 'waveform_struct/pca10/constant6',
+    'Instance' => 'constant6',
+    'SimulinkInstance' => 'waveform/pca10/Constant6'
+  },
+  'Line_6365' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux14',
+    'Instance' => 'mux14',
+    'SimulinkInstance' => 'waveform/pca50/mux14'
+  },
+  'Line_6374' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux15',
+    'Instance' => 'mux15',
+    'SimulinkInstance' => 'waveform/pca50/mux15'
+  },
+  'Line_6383' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux16',
+    'Instance' => 'mux16',
+    'SimulinkInstance' => 'waveform/pca50/mux16'
+  },
+  'Line_6392' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux17',
+    'Instance' => 'mux17',
+    'SimulinkInstance' => 'waveform/pca50/mux17'
+  },
+  'Line_6401' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux18',
+    'Instance' => 'mux18',
+    'SimulinkInstance' => 'waveform/pca50/mux18'
+  },
+  'Line_6410' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux19',
+    'Instance' => 'mux19',
+    'SimulinkInstance' => 'waveform/pca50/mux19'
+  },
+  'Line_6419' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux2',
+    'Instance' => 'mux2',
+    'SimulinkInstance' => 'waveform/pca50/mux2'
+  },
+  'Line_642' => {
+    'CodeInstance' => 'waveform_struct/pca10/constant7',
+    'Instance' => 'constant7',
+    'SimulinkInstance' => 'waveform/pca10/Constant7'
+  },
+  'Line_6428' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux20',
+    'Instance' => 'mux20',
+    'SimulinkInstance' => 'waveform/pca50/mux20'
+  },
+  'Line_6437' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux21',
+    'Instance' => 'mux21',
+    'SimulinkInstance' => 'waveform/pca50/mux21'
+  },
+  'Line_6446' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux22',
+    'Instance' => 'mux22',
+    'SimulinkInstance' => 'waveform/pca50/mux22'
+  },
+  'Line_6455' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux23',
+    'Instance' => 'mux23',
+    'SimulinkInstance' => 'waveform/pca50/mux23'
+  },
+  'Line_6464' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux24',
+    'Instance' => 'mux24',
+    'SimulinkInstance' => 'waveform/pca50/mux24'
+  },
+  'Line_6473' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux25',
+    'Instance' => 'mux25',
+    'SimulinkInstance' => 'waveform/pca50/mux25'
+  },
+  'Line_6482' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux26',
+    'Instance' => 'mux26',
+    'SimulinkInstance' => 'waveform/pca50/mux26'
+  },
+  'Line_6491' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux27',
+    'Instance' => 'mux27',
+    'SimulinkInstance' => 'waveform/pca50/mux27'
+  },
+  'Line_6500' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux28',
+    'Instance' => 'mux28',
+    'SimulinkInstance' => 'waveform/pca50/mux28'
+  },
+  'Line_6509' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux29',
+    'Instance' => 'mux29',
+    'SimulinkInstance' => 'waveform/pca50/mux29'
+  },
+  'Line_6518' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux3',
+    'Instance' => 'mux3',
+    'SimulinkInstance' => 'waveform/pca50/mux3'
+  },
+  'Line_6527' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux30',
+    'Instance' => 'mux30',
+    'SimulinkInstance' => 'waveform/pca50/mux30'
+  },
+  'Line_6536' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux31',
+    'Instance' => 'mux31',
+    'SimulinkInstance' => 'waveform/pca50/mux31'
+  },
+  'Line_6545' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux32',
+    'Instance' => 'mux32',
+    'SimulinkInstance' => 'waveform/pca50/mux32'
+  },
+  'Line_6554' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux33',
+    'Instance' => 'mux33',
+    'SimulinkInstance' => 'waveform/pca50/mux33'
+  },
+  'Line_6563' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux34',
+    'Instance' => 'mux34',
+    'SimulinkInstance' => 'waveform/pca50/mux34'
+  },
+  'Line_6572' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux35',
+    'Instance' => 'mux35',
+    'SimulinkInstance' => 'waveform/pca50/mux35'
+  },
+  'Line_6581' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux36',
+    'Instance' => 'mux36',
+    'SimulinkInstance' => 'waveform/pca50/mux36'
+  },
+  'Line_6590' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux37',
+    'Instance' => 'mux37',
+    'SimulinkInstance' => 'waveform/pca50/mux37'
+  },
+  'Line_6599' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux38',
+    'Instance' => 'mux38',
+    'SimulinkInstance' => 'waveform/pca50/mux38'
+  },
+  'Line_66' => {
+    'CodeInstance' => 'waveform_struct/cordic_max/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'waveform/cordic_max/Mult1'
+  },
+  'Line_6608' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux39',
+    'Instance' => 'mux39',
+    'SimulinkInstance' => 'waveform/pca50/mux39'
+  },
+  'Line_6617' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux4',
+    'Instance' => 'mux4',
+    'SimulinkInstance' => 'waveform/pca50/mux4'
+  },
+  'Line_6626' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux40',
+    'Instance' => 'mux40',
+    'SimulinkInstance' => 'waveform/pca50/mux40'
+  },
+  'Line_6635' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux41',
+    'Instance' => 'mux41',
+    'SimulinkInstance' => 'waveform/pca50/mux41'
+  },
+  'Line_6644' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux42',
+    'Instance' => 'mux42',
+    'SimulinkInstance' => 'waveform/pca50/mux42'
+  },
+  'Line_6653' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux43',
+    'Instance' => 'mux43',
+    'SimulinkInstance' => 'waveform/pca50/mux43'
+  },
+  'Line_6662' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux44',
+    'Instance' => 'mux44',
+    'SimulinkInstance' => 'waveform/pca50/mux44'
+  },
+  'Line_6671' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux45',
+    'Instance' => 'mux45',
+    'SimulinkInstance' => 'waveform/pca50/mux45'
+  },
+  'Line_6680' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux46',
+    'Instance' => 'mux46',
+    'SimulinkInstance' => 'waveform/pca50/mux46'
+  },
+  'Line_6689' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux47',
+    'Instance' => 'mux47',
+    'SimulinkInstance' => 'waveform/pca50/mux47'
+  },
+  'Line_6698' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux48',
+    'Instance' => 'mux48',
+    'SimulinkInstance' => 'waveform/pca50/mux48'
+  },
+  'Line_6707' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux49',
+    'Instance' => 'mux49',
+    'SimulinkInstance' => 'waveform/pca50/mux49'
+  },
+  'Line_671' => {
+    'CodeInstance' => 'waveform_struct/pca10/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'waveform/pca10/Mult1'
+  },
+  'Line_6716' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux5',
+    'Instance' => 'mux5',
+    'SimulinkInstance' => 'waveform/pca50/mux5'
+  },
+  'Line_6725' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux50',
+    'Instance' => 'mux50',
+    'SimulinkInstance' => 'waveform/pca50/mux50'
+  },
+  'Line_6734' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux51',
+    'Instance' => 'mux51',
+    'SimulinkInstance' => 'waveform/pca50/mux51'
+  },
+  'Line_6743' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux52',
+    'Instance' => 'mux52',
+    'SimulinkInstance' => 'waveform/pca50/mux52'
+  },
+  'Line_6752' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux53',
+    'Instance' => 'mux53',
+    'SimulinkInstance' => 'waveform/pca50/mux53'
+  },
+  'Line_6761' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux54',
+    'Instance' => 'mux54',
+    'SimulinkInstance' => 'waveform/pca50/mux54'
+  },
+  'Line_6770' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux55',
+    'Instance' => 'mux55',
+    'SimulinkInstance' => 'waveform/pca50/mux55'
+  },
+  'Line_6779' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux56',
+    'Instance' => 'mux56',
+    'SimulinkInstance' => 'waveform/pca50/mux56'
+  },
+  'Line_6788' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux57',
+    'Instance' => 'mux57',
+    'SimulinkInstance' => 'waveform/pca50/mux57'
+  },
+  'Line_6797' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux58',
+    'Instance' => 'mux58',
+    'SimulinkInstance' => 'waveform/pca50/mux58'
+  },
+  'Line_6806' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux59',
+    'Instance' => 'mux59',
+    'SimulinkInstance' => 'waveform/pca50/mux59'
+  },
+  'Line_6815' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux6',
+    'Instance' => 'mux6',
+    'SimulinkInstance' => 'waveform/pca50/mux6'
+  },
+  'Line_6824' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux60',
+    'Instance' => 'mux60',
+    'SimulinkInstance' => 'waveform/pca50/mux60'
+  },
+  'Line_6833' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux61',
+    'Instance' => 'mux61',
+    'SimulinkInstance' => 'waveform/pca50/mux61'
+  },
+  'Line_684' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'waveform/pca10/Mux'
+  },
+  'Line_6842' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux62',
+    'Instance' => 'mux62',
+    'SimulinkInstance' => 'waveform/pca50/mux62'
+  },
+  'Line_6851' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux63',
+    'Instance' => 'mux63',
+    'SimulinkInstance' => 'waveform/pca50/mux63'
+  },
+  'Line_6860' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux64',
+    'Instance' => 'mux64',
+    'SimulinkInstance' => 'waveform/pca50/mux64'
+  },
+  'Line_6869' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux65',
+    'Instance' => 'mux65',
+    'SimulinkInstance' => 'waveform/pca50/mux65'
+  },
+  'Line_6878' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux66',
+    'Instance' => 'mux66',
+    'SimulinkInstance' => 'waveform/pca50/mux66'
+  },
+  'Line_6887' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux67',
+    'Instance' => 'mux67',
+    'SimulinkInstance' => 'waveform/pca50/mux67'
+  },
+  'Line_6896' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux68',
+    'Instance' => 'mux68',
+    'SimulinkInstance' => 'waveform/pca50/mux68'
+  },
+  'Line_6905' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux69',
+    'Instance' => 'mux69',
+    'SimulinkInstance' => 'waveform/pca50/mux69'
+  },
+  'Line_6914' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux7',
+    'Instance' => 'mux7',
+    'SimulinkInstance' => 'waveform/pca50/mux7'
+  },
+  'Line_6923' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux70',
+    'Instance' => 'mux70',
+    'SimulinkInstance' => 'waveform/pca50/mux70'
+  },
+  'Line_693' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux1',
+    'Instance' => 'mux1',
+    'SimulinkInstance' => 'waveform/pca10/Mux1'
+  },
+  'Line_6932' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux71',
+    'Instance' => 'mux71',
+    'SimulinkInstance' => 'waveform/pca50/mux71'
+  },
+  'Line_6941' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux72',
+    'Instance' => 'mux72',
+    'SimulinkInstance' => 'waveform/pca50/mux72'
+  },
+  'Line_6950' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux73',
+    'Instance' => 'mux73',
+    'SimulinkInstance' => 'waveform/pca50/mux73'
+  },
+  'Line_6959' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux74',
+    'Instance' => 'mux74',
+    'SimulinkInstance' => 'waveform/pca50/mux74'
+  },
+  'Line_6968' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux75',
+    'Instance' => 'mux75',
+    'SimulinkInstance' => 'waveform/pca50/mux75'
+  },
+  'Line_6977' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux76',
+    'Instance' => 'mux76',
+    'SimulinkInstance' => 'waveform/pca50/mux76'
+  },
+  'Line_6986' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux77',
+    'Instance' => 'mux77',
+    'SimulinkInstance' => 'waveform/pca50/mux77'
+  },
+  'Line_6995' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux78',
+    'Instance' => 'mux78',
+    'SimulinkInstance' => 'waveform/pca50/mux78'
+  },
+  'Line_7004' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux79',
+    'Instance' => 'mux79',
+    'SimulinkInstance' => 'waveform/pca50/mux79'
+  },
+  'Line_7013' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux8',
+    'Instance' => 'mux8',
+    'SimulinkInstance' => 'waveform/pca50/mux8'
+  },
+  'Line_702' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux2',
+    'Instance' => 'mux2',
+    'SimulinkInstance' => 'waveform/pca10/Mux2'
+  },
+  'Line_7022' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux80',
+    'Instance' => 'mux80',
+    'SimulinkInstance' => 'waveform/pca50/mux80'
+  },
+  'Line_7031' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux81',
+    'Instance' => 'mux81',
+    'SimulinkInstance' => 'waveform/pca50/mux81'
+  },
+  'Line_7040' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux82',
+    'Instance' => 'mux82',
+    'SimulinkInstance' => 'waveform/pca50/mux82'
+  },
+  'Line_7049' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux83',
+    'Instance' => 'mux83',
+    'SimulinkInstance' => 'waveform/pca50/mux83'
+  },
+  'Line_7058' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux84',
+    'Instance' => 'mux84',
+    'SimulinkInstance' => 'waveform/pca50/mux84'
+  },
+  'Line_7067' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux85',
+    'Instance' => 'mux85',
+    'SimulinkInstance' => 'waveform/pca50/mux85'
+  },
+  'Line_7076' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux86',
+    'Instance' => 'mux86',
+    'SimulinkInstance' => 'waveform/pca50/mux86'
+  },
+  'Line_7085' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux87',
+    'Instance' => 'mux87',
+    'SimulinkInstance' => 'waveform/pca50/mux87'
+  },
+  'Line_7094' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux88',
+    'Instance' => 'mux88',
+    'SimulinkInstance' => 'waveform/pca50/mux88'
+  },
+  'Line_7103' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux89',
+    'Instance' => 'mux89',
+    'SimulinkInstance' => 'waveform/pca50/mux89'
+  },
+  'Line_711' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux20',
+    'Instance' => 'mux20',
+    'SimulinkInstance' => 'waveform/pca10/Mux20'
+  },
+  'Line_7112' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux9',
+    'Instance' => 'mux9',
+    'SimulinkInstance' => 'waveform/pca50/mux9'
+  },
+  'Line_7121' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux90',
+    'Instance' => 'mux90',
+    'SimulinkInstance' => 'waveform/pca50/mux90'
+  },
+  'Line_7130' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux91',
+    'Instance' => 'mux91',
+    'SimulinkInstance' => 'waveform/pca50/mux91'
+  },
+  'Line_7139' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux92',
+    'Instance' => 'mux92',
+    'SimulinkInstance' => 'waveform/pca50/mux92'
+  },
+  'Line_7148' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux93',
+    'Instance' => 'mux93',
+    'SimulinkInstance' => 'waveform/pca50/mux93'
+  },
+  'Line_7157' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux94',
+    'Instance' => 'mux94',
+    'SimulinkInstance' => 'waveform/pca50/mux94'
+  },
+  'Line_7166' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux95',
+    'Instance' => 'mux95',
+    'SimulinkInstance' => 'waveform/pca50/mux95'
+  },
+  'Line_7175' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux96',
+    'Instance' => 'mux96',
+    'SimulinkInstance' => 'waveform/pca50/mux96'
+  },
+  'Line_7184' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux97',
+    'Instance' => 'mux97',
+    'SimulinkInstance' => 'waveform/pca50/mux97'
+  },
+  'Line_7193' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux98',
+    'Instance' => 'mux98',
+    'SimulinkInstance' => 'waveform/pca50/mux98'
+  },
+  'Line_720' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux21',
+    'Instance' => 'mux21',
+    'SimulinkInstance' => 'waveform/pca10/Mux21'
+  },
+  'Line_7202' => {
+    'CodeInstance' => 'waveform_struct/pca50/mux99',
+    'Instance' => 'mux99',
+    'SimulinkInstance' => 'waveform/pca50/mux99'
+  },
+  'Line_7211' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela1',
+    'Instance' => 'rela1',
+    'SimulinkInstance' => 'waveform/pca50/rela1'
+  },
+  'Line_7219' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela10',
+    'Instance' => 'rela10',
+    'SimulinkInstance' => 'waveform/pca50/rela10'
+  },
+  'Line_7227' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela100',
+    'Instance' => 'rela100',
+    'SimulinkInstance' => 'waveform/pca50/rela100'
+  },
+  'Line_7235' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela11',
+    'Instance' => 'rela11',
+    'SimulinkInstance' => 'waveform/pca50/rela11'
+  },
+  'Line_7243' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela12',
+    'Instance' => 'rela12',
+    'SimulinkInstance' => 'waveform/pca50/rela12'
+  },
+  'Line_7251' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela13',
+    'Instance' => 'rela13',
+    'SimulinkInstance' => 'waveform/pca50/rela13'
+  },
+  'Line_7259' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela14',
+    'Instance' => 'rela14',
+    'SimulinkInstance' => 'waveform/pca50/rela14'
+  },
+  'Line_7267' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela15',
+    'Instance' => 'rela15',
+    'SimulinkInstance' => 'waveform/pca50/rela15'
+  },
+  'Line_7275' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela16',
+    'Instance' => 'rela16',
+    'SimulinkInstance' => 'waveform/pca50/rela16'
+  },
+  'Line_7283' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela17',
+    'Instance' => 'rela17',
+    'SimulinkInstance' => 'waveform/pca50/rela17'
+  },
+  'Line_729' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux22',
+    'Instance' => 'mux22',
+    'SimulinkInstance' => 'waveform/pca10/Mux22'
+  },
+  'Line_7291' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela18',
+    'Instance' => 'rela18',
+    'SimulinkInstance' => 'waveform/pca50/rela18'
+  },
+  'Line_7299' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela19',
+    'Instance' => 'rela19',
+    'SimulinkInstance' => 'waveform/pca50/rela19'
+  },
+  'Line_7307' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela2',
+    'Instance' => 'rela2',
+    'SimulinkInstance' => 'waveform/pca50/rela2'
+  },
+  'Line_7315' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela20',
+    'Instance' => 'rela20',
+    'SimulinkInstance' => 'waveform/pca50/rela20'
+  },
+  'Line_7323' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela21',
+    'Instance' => 'rela21',
+    'SimulinkInstance' => 'waveform/pca50/rela21'
+  },
+  'Line_7331' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela22',
+    'Instance' => 'rela22',
+    'SimulinkInstance' => 'waveform/pca50/rela22'
+  },
+  'Line_7339' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela23',
+    'Instance' => 'rela23',
+    'SimulinkInstance' => 'waveform/pca50/rela23'
+  },
+  'Line_7347' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela24',
+    'Instance' => 'rela24',
+    'SimulinkInstance' => 'waveform/pca50/rela24'
+  },
+  'Line_7355' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela25',
+    'Instance' => 'rela25',
+    'SimulinkInstance' => 'waveform/pca50/rela25'
+  },
+  'Line_7363' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela26',
+    'Instance' => 'rela26',
+    'SimulinkInstance' => 'waveform/pca50/rela26'
+  },
+  'Line_7371' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela27',
+    'Instance' => 'rela27',
+    'SimulinkInstance' => 'waveform/pca50/rela27'
+  },
+  'Line_7379' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela28',
+    'Instance' => 'rela28',
+    'SimulinkInstance' => 'waveform/pca50/rela28'
+  },
+  'Line_738' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux23',
+    'Instance' => 'mux23',
+    'SimulinkInstance' => 'waveform/pca10/Mux23'
+  },
+  'Line_7387' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela29',
+    'Instance' => 'rela29',
+    'SimulinkInstance' => 'waveform/pca50/rela29'
+  },
+  'Line_7395' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela3',
+    'Instance' => 'rela3',
+    'SimulinkInstance' => 'waveform/pca50/rela3'
+  },
+  'Line_7403' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela30',
+    'Instance' => 'rela30',
+    'SimulinkInstance' => 'waveform/pca50/rela30'
+  },
+  'Line_7411' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela31',
+    'Instance' => 'rela31',
+    'SimulinkInstance' => 'waveform/pca50/rela31'
+  },
+  'Line_7419' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela32',
+    'Instance' => 'rela32',
+    'SimulinkInstance' => 'waveform/pca50/rela32'
+  },
+  'Line_7427' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela33',
+    'Instance' => 'rela33',
+    'SimulinkInstance' => 'waveform/pca50/rela33'
+  },
+  'Line_7435' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela34',
+    'Instance' => 'rela34',
+    'SimulinkInstance' => 'waveform/pca50/rela34'
+  },
+  'Line_7443' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela35',
+    'Instance' => 'rela35',
+    'SimulinkInstance' => 'waveform/pca50/rela35'
+  },
+  'Line_7451' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela36',
+    'Instance' => 'rela36',
+    'SimulinkInstance' => 'waveform/pca50/rela36'
+  },
+  'Line_7459' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela37',
+    'Instance' => 'rela37',
+    'SimulinkInstance' => 'waveform/pca50/rela37'
+  },
+  'Line_7467' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela38',
+    'Instance' => 'rela38',
+    'SimulinkInstance' => 'waveform/pca50/rela38'
+  },
+  'Line_747' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux24',
+    'Instance' => 'mux24',
+    'SimulinkInstance' => 'waveform/pca10/Mux24'
+  },
+  'Line_7475' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela39',
+    'Instance' => 'rela39',
+    'SimulinkInstance' => 'waveform/pca50/rela39'
+  },
+  'Line_7483' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela4',
+    'Instance' => 'rela4',
+    'SimulinkInstance' => 'waveform/pca50/rela4'
+  },
+  'Line_7491' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela40',
+    'Instance' => 'rela40',
+    'SimulinkInstance' => 'waveform/pca50/rela40'
+  },
+  'Line_7499' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela41',
+    'Instance' => 'rela41',
+    'SimulinkInstance' => 'waveform/pca50/rela41'
+  },
+  'Line_7507' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela42',
+    'Instance' => 'rela42',
+    'SimulinkInstance' => 'waveform/pca50/rela42'
+  },
+  'Line_7515' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela43',
+    'Instance' => 'rela43',
+    'SimulinkInstance' => 'waveform/pca50/rela43'
+  },
+  'Line_7523' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela44',
+    'Instance' => 'rela44',
+    'SimulinkInstance' => 'waveform/pca50/rela44'
+  },
+  'Line_7531' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela45',
+    'Instance' => 'rela45',
+    'SimulinkInstance' => 'waveform/pca50/rela45'
+  },
+  'Line_7539' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela46',
+    'Instance' => 'rela46',
+    'SimulinkInstance' => 'waveform/pca50/rela46'
+  },
+  'Line_7547' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela47',
+    'Instance' => 'rela47',
+    'SimulinkInstance' => 'waveform/pca50/rela47'
+  },
+  'Line_7555' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela48',
+    'Instance' => 'rela48',
+    'SimulinkInstance' => 'waveform/pca50/rela48'
+  },
+  'Line_756' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux25',
+    'Instance' => 'mux25',
+    'SimulinkInstance' => 'waveform/pca10/Mux25'
+  },
+  'Line_7563' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela49',
+    'Instance' => 'rela49',
+    'SimulinkInstance' => 'waveform/pca50/rela49'
+  },
+  'Line_7571' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela5',
+    'Instance' => 'rela5',
+    'SimulinkInstance' => 'waveform/pca50/rela5'
+  },
+  'Line_7579' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela50',
+    'Instance' => 'rela50',
+    'SimulinkInstance' => 'waveform/pca50/rela50'
+  },
+  'Line_7587' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela51',
+    'Instance' => 'rela51',
+    'SimulinkInstance' => 'waveform/pca50/rela51'
+  },
+  'Line_7595' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela52',
+    'Instance' => 'rela52',
+    'SimulinkInstance' => 'waveform/pca50/rela52'
+  },
+  'Line_7603' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela53',
+    'Instance' => 'rela53',
+    'SimulinkInstance' => 'waveform/pca50/rela53'
+  },
+  'Line_7611' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela54',
+    'Instance' => 'rela54',
+    'SimulinkInstance' => 'waveform/pca50/rela54'
+  },
+  'Line_7619' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela55',
+    'Instance' => 'rela55',
+    'SimulinkInstance' => 'waveform/pca50/rela55'
+  },
+  'Line_7627' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela56',
+    'Instance' => 'rela56',
+    'SimulinkInstance' => 'waveform/pca50/rela56'
+  },
+  'Line_7635' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela57',
+    'Instance' => 'rela57',
+    'SimulinkInstance' => 'waveform/pca50/rela57'
+  },
+  'Line_7643' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela58',
+    'Instance' => 'rela58',
+    'SimulinkInstance' => 'waveform/pca50/rela58'
+  },
+  'Line_765' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux26',
+    'Instance' => 'mux26',
+    'SimulinkInstance' => 'waveform/pca10/Mux26'
+  },
+  'Line_7651' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela59',
+    'Instance' => 'rela59',
+    'SimulinkInstance' => 'waveform/pca50/rela59'
+  },
+  'Line_7659' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela6',
+    'Instance' => 'rela6',
+    'SimulinkInstance' => 'waveform/pca50/rela6'
+  },
+  'Line_7667' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela60',
+    'Instance' => 'rela60',
+    'SimulinkInstance' => 'waveform/pca50/rela60'
+  },
+  'Line_7675' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela61',
+    'Instance' => 'rela61',
+    'SimulinkInstance' => 'waveform/pca50/rela61'
+  },
+  'Line_7683' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela62',
+    'Instance' => 'rela62',
+    'SimulinkInstance' => 'waveform/pca50/rela62'
+  },
+  'Line_7691' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela63',
+    'Instance' => 'rela63',
+    'SimulinkInstance' => 'waveform/pca50/rela63'
+  },
+  'Line_7699' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela64',
+    'Instance' => 'rela64',
+    'SimulinkInstance' => 'waveform/pca50/rela64'
+  },
+  'Line_7707' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela65',
+    'Instance' => 'rela65',
+    'SimulinkInstance' => 'waveform/pca50/rela65'
+  },
+  'Line_7715' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela66',
+    'Instance' => 'rela66',
+    'SimulinkInstance' => 'waveform/pca50/rela66'
+  },
+  'Line_7723' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela67',
+    'Instance' => 'rela67',
+    'SimulinkInstance' => 'waveform/pca50/rela67'
+  },
+  'Line_7731' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela68',
+    'Instance' => 'rela68',
+    'SimulinkInstance' => 'waveform/pca50/rela68'
+  },
+  'Line_7739' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela69',
+    'Instance' => 'rela69',
+    'SimulinkInstance' => 'waveform/pca50/rela69'
+  },
+  'Line_774' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux27',
+    'Instance' => 'mux27',
+    'SimulinkInstance' => 'waveform/pca10/Mux27'
+  },
+  'Line_7747' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela7',
+    'Instance' => 'rela7',
+    'SimulinkInstance' => 'waveform/pca50/rela7'
+  },
+  'Line_7755' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela70',
+    'Instance' => 'rela70',
+    'SimulinkInstance' => 'waveform/pca50/rela70'
+  },
+  'Line_7763' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela71',
+    'Instance' => 'rela71',
+    'SimulinkInstance' => 'waveform/pca50/rela71'
+  },
+  'Line_7771' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela72',
+    'Instance' => 'rela72',
+    'SimulinkInstance' => 'waveform/pca50/rela72'
+  },
+  'Line_7779' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela73',
+    'Instance' => 'rela73',
+    'SimulinkInstance' => 'waveform/pca50/rela73'
+  },
+  'Line_7787' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela74',
+    'Instance' => 'rela74',
+    'SimulinkInstance' => 'waveform/pca50/rela74'
+  },
+  'Line_7795' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela75',
+    'Instance' => 'rela75',
+    'SimulinkInstance' => 'waveform/pca50/rela75'
+  },
+  'Line_7803' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela76',
+    'Instance' => 'rela76',
+    'SimulinkInstance' => 'waveform/pca50/rela76'
+  },
+  'Line_7811' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela77',
+    'Instance' => 'rela77',
+    'SimulinkInstance' => 'waveform/pca50/rela77'
+  },
+  'Line_7819' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela78',
+    'Instance' => 'rela78',
+    'SimulinkInstance' => 'waveform/pca50/rela78'
+  },
+  'Line_7827' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela79',
+    'Instance' => 'rela79',
+    'SimulinkInstance' => 'waveform/pca50/rela79'
+  },
+  'Line_783' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux28',
+    'Instance' => 'mux28',
+    'SimulinkInstance' => 'waveform/pca10/Mux28'
+  },
+  'Line_7835' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela8',
+    'Instance' => 'rela8',
+    'SimulinkInstance' => 'waveform/pca50/rela8'
+  },
+  'Line_7843' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela80',
+    'Instance' => 'rela80',
+    'SimulinkInstance' => 'waveform/pca50/rela80'
+  },
+  'Line_7851' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela81',
+    'Instance' => 'rela81',
+    'SimulinkInstance' => 'waveform/pca50/rela81'
+  },
+  'Line_7859' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela82',
+    'Instance' => 'rela82',
+    'SimulinkInstance' => 'waveform/pca50/rela82'
+  },
+  'Line_7867' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela83',
+    'Instance' => 'rela83',
+    'SimulinkInstance' => 'waveform/pca50/rela83'
+  },
+  'Line_7875' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela84',
+    'Instance' => 'rela84',
+    'SimulinkInstance' => 'waveform/pca50/rela84'
+  },
+  'Line_7883' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela85',
+    'Instance' => 'rela85',
+    'SimulinkInstance' => 'waveform/pca50/rela85'
+  },
+  'Line_7891' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela86',
+    'Instance' => 'rela86',
+    'SimulinkInstance' => 'waveform/pca50/rela86'
+  },
+  'Line_7899' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela87',
+    'Instance' => 'rela87',
+    'SimulinkInstance' => 'waveform/pca50/rela87'
+  },
+  'Line_7907' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela88',
+    'Instance' => 'rela88',
+    'SimulinkInstance' => 'waveform/pca50/rela88'
+  },
+  'Line_7915' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela89',
+    'Instance' => 'rela89',
+    'SimulinkInstance' => 'waveform/pca50/rela89'
+  },
+  'Line_792' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux3',
+    'Instance' => 'mux3',
+    'SimulinkInstance' => 'waveform/pca10/Mux3'
+  },
+  'Line_7923' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela9',
+    'Instance' => 'rela9',
+    'SimulinkInstance' => 'waveform/pca50/rela9'
+  },
+  'Line_7931' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela90',
+    'Instance' => 'rela90',
+    'SimulinkInstance' => 'waveform/pca50/rela90'
+  },
+  'Line_7939' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela91',
+    'Instance' => 'rela91',
+    'SimulinkInstance' => 'waveform/pca50/rela91'
+  },
+  'Line_7947' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela92',
+    'Instance' => 'rela92',
+    'SimulinkInstance' => 'waveform/pca50/rela92'
+  },
+  'Line_7955' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela93',
+    'Instance' => 'rela93',
+    'SimulinkInstance' => 'waveform/pca50/rela93'
+  },
+  'Line_7963' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela94',
+    'Instance' => 'rela94',
+    'SimulinkInstance' => 'waveform/pca50/rela94'
+  },
+  'Line_7971' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela95',
+    'Instance' => 'rela95',
+    'SimulinkInstance' => 'waveform/pca50/rela95'
+  },
+  'Line_7979' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela96',
+    'Instance' => 'rela96',
+    'SimulinkInstance' => 'waveform/pca50/rela96'
+  },
+  'Line_7987' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela97',
+    'Instance' => 'rela97',
+    'SimulinkInstance' => 'waveform/pca50/rela97'
+  },
+  'Line_7995' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela98',
+    'Instance' => 'rela98',
+    'SimulinkInstance' => 'waveform/pca50/rela98'
+  },
+  'Line_8003' => {
+    'CodeInstance' => 'waveform_struct/pca50/rela99',
+    'Instance' => 'rela99',
+    'SimulinkInstance' => 'waveform/pca50/rela99'
+  },
+  'Line_801' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux38',
+    'Instance' => 'mux38',
+    'SimulinkInstance' => 'waveform/pca10/Mux38'
+  },
+  'Line_8068' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/cmult1',
+    'Instance' => 'cmult1',
+    'SimulinkInstance' => 'waveform/proposal_sq04/CMult1'
+  },
+  'Line_810' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux39',
+    'Instance' => 'mux39',
+    'SimulinkInstance' => 'waveform/pca10/Mux39'
+  },
+  'Line_8100' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/cmult2',
+    'Instance' => 'cmult2',
+    'SimulinkInstance' => 'waveform/proposal_sq04/CMult2'
+  },
+  'Line_8132' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/cmult3',
+    'Instance' => 'cmult3',
+    'SimulinkInstance' => 'waveform/proposal_sq04/CMult3'
+  },
+  'Line_8164' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/cmult4',
+    'Instance' => 'cmult4',
+    'SimulinkInstance' => 'waveform/proposal_sq04/CMult4'
+  },
+  'Line_8176' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'waveform/proposal_sq04/Mux'
+  },
+  'Line_8185' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/scale1',
+    'Instance' => 'scale1',
+    'SimulinkInstance' => 'waveform/proposal_sq04/Scale1'
+  },
+  'Line_819' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux4',
+    'Instance' => 'mux4',
+    'SimulinkInstance' => 'waveform/pca10/Mux4'
+  },
+  'Line_8192' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'waveform/proposal_sq04/Scale2'
+  },
+  'Line_8205' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/slice1',
+    'Instance' => 'slice1',
+    'SimulinkInstance' => 'waveform/proposal_sq04/Slice1'
+  },
+  'Line_8215' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/slice2',
+    'Instance' => 'slice2',
+    'SimulinkInstance' => 'waveform/proposal_sq04/Slice2'
+  },
+  'Line_8219' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/abs1',
+    'Instance' => 'abs1',
+    'SimulinkInstance' => 'waveform/proposal_sq04/abs1'
+  },
+  'Line_8226' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/abs2',
+    'Instance' => 'abs2',
+    'SimulinkInstance' => 'waveform/proposal_sq04/abs2'
+  },
+  'Line_8233' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/abs3',
+    'Instance' => 'abs3',
+    'SimulinkInstance' => 'waveform/proposal_sq04/abs3'
+  },
+  'Line_8240' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/abs4',
+    'Instance' => 'abs4',
+    'SimulinkInstance' => 'waveform/proposal_sq04/abs4'
+  },
+  'Line_8268' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/proposal_sq04/addsub1'
+  },
+  'Line_828' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux5',
+    'Instance' => 'mux5',
+    'SimulinkInstance' => 'waveform/pca10/Mux5'
+  },
+  'Line_8298' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'waveform/proposal_sq04/addsub2'
+  },
+  'Line_8328' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'waveform/proposal_sq04/addsub3'
+  },
+  'Line_8358' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'waveform/proposal_sq04/addsub4'
+  },
+  'Line_8367' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04/bool1',
+    'Instance' => 'bool1',
+    'SimulinkInstance' => 'waveform/proposal_sq04/bool1'
+  },
+  'Line_837' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux6',
+    'Instance' => 'mux6',
+    'SimulinkInstance' => 'waveform/pca10/Mux6'
+  },
+  'Line_8443' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/cmult1',
+    'Instance' => 'cmult1',
+    'SimulinkInstance' => 'waveform/proposal_sq06/CMult1'
+  },
+  'Line_846' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux7',
+    'Instance' => 'mux7',
+    'SimulinkInstance' => 'waveform/pca10/Mux7'
+  },
+  'Line_8475' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/cmult2',
+    'Instance' => 'cmult2',
+    'SimulinkInstance' => 'waveform/proposal_sq06/CMult2'
+  },
+  'Line_8507' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/cmult3',
+    'Instance' => 'cmult3',
+    'SimulinkInstance' => 'waveform/proposal_sq06/CMult3'
+  },
+  'Line_8539' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/cmult4',
+    'Instance' => 'cmult4',
+    'SimulinkInstance' => 'waveform/proposal_sq06/CMult4'
+  },
+  'Line_855' => {
+    'CodeInstance' => 'waveform_struct/pca10/mux8',
+    'Instance' => 'mux8',
+    'SimulinkInstance' => 'waveform/pca10/Mux8'
+  },
+  'Line_8571' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/cmult5',
+    'Instance' => 'cmult5',
+    'SimulinkInstance' => 'waveform/proposal_sq06/CMult5'
+  },
+  'Line_8603' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/cmult6',
+    'Instance' => 'cmult6',
+    'SimulinkInstance' => 'waveform/proposal_sq06/CMult6'
+  },
+  'Line_8615' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Mux'
+  },
+  'Line_8624' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/mux1',
+    'Instance' => 'mux1',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Mux1'
+  },
+  'Line_8633' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/scale1',
+    'Instance' => 'scale1',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Scale1'
+  },
+  'Line_864' => {
+    'CodeInstance' => 'waveform_struct/pca10/negate',
+    'Instance' => 'negate',
+    'SimulinkInstance' => 'waveform/pca10/Negate'
+  },
+  'Line_8640' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Scale2'
+  },
+  'Line_8647' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/scale3',
+    'Instance' => 'scale3',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Scale3'
+  },
+  'Line_8660' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/slice1',
+    'Instance' => 'slice1',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Slice1'
+  },
+  'Line_8670' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/slice2',
+    'Instance' => 'slice2',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Slice2'
+  },
+  'Line_8680' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/slice3',
+    'Instance' => 'slice3',
+    'SimulinkInstance' => 'waveform/proposal_sq06/Slice3'
+  },
+  'Line_8684' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/abs1',
+    'Instance' => 'abs1',
+    'SimulinkInstance' => 'waveform/proposal_sq06/abs1'
+  },
+  'Line_8691' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/abs2',
+    'Instance' => 'abs2',
+    'SimulinkInstance' => 'waveform/proposal_sq06/abs2'
+  },
+  'Line_8698' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/abs3',
+    'Instance' => 'abs3',
+    'SimulinkInstance' => 'waveform/proposal_sq06/abs3'
+  },
+  'Line_8705' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/abs4',
+    'Instance' => 'abs4',
+    'SimulinkInstance' => 'waveform/proposal_sq06/abs4'
+  },
+  'Line_8712' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/abs5',
+    'Instance' => 'abs5',
+    'SimulinkInstance' => 'waveform/proposal_sq06/abs5'
+  },
+  'Line_8719' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/abs6',
+    'Instance' => 'abs6',
+    'SimulinkInstance' => 'waveform/proposal_sq06/abs6'
+  },
+  'Line_8747' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/proposal_sq06/addsub1'
+  },
+  'Line_8777' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'waveform/proposal_sq06/addsub2'
+  },
+  'Line_878' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom1',
+    'Instance' => 'rom1',
+    'SimulinkInstance' => 'waveform/pca10/ROM1'
+  },
+  'Line_8807' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'waveform/proposal_sq06/addsub3'
+  },
+  'Line_8837' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'waveform/proposal_sq06/addsub4'
+  },
+  'Line_8867' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'waveform/proposal_sq06/addsub5'
+  },
+  'Line_8897' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/addsub6',
+    'Instance' => 'addsub6',
+    'SimulinkInstance' => 'waveform/proposal_sq06/addsub6'
+  },
+  'Line_892' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom10',
+    'Instance' => 'rom10',
+    'SimulinkInstance' => 'waveform/pca10/ROM10'
+  },
+  'Line_8927' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/addsub7',
+    'Instance' => 'addsub7',
+    'SimulinkInstance' => 'waveform/proposal_sq06/addsub7'
+  },
+  'Line_8936' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/bool1',
+    'Instance' => 'bool1',
+    'SimulinkInstance' => 'waveform/proposal_sq06/bool1'
+  },
+  'Line_8944' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06/bool2',
+    'Instance' => 'bool2',
+    'SimulinkInstance' => 'waveform/proposal_sq06/bool2'
+  },
+  'Line_9031' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult1',
+    'Instance' => 'cmult1',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult1'
+  },
+  'Line_906' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom11',
+    'Instance' => 'rom11',
+    'SimulinkInstance' => 'waveform/pca10/ROM11'
+  },
+  'Line_9063' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult2',
+    'Instance' => 'cmult2',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult2'
+  },
+  'Line_9095' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult3',
+    'Instance' => 'cmult3',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult3'
+  },
+  'Line_9127' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult4',
+    'Instance' => 'cmult4',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult4'
+  },
+  'Line_9159' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult5',
+    'Instance' => 'cmult5',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult5'
+  },
+  'Line_9191' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult6',
+    'Instance' => 'cmult6',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult6'
+  },
+  'Line_920' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom12',
+    'Instance' => 'rom12',
+    'SimulinkInstance' => 'waveform/pca10/ROM12'
+  },
+  'Line_9223' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult7',
+    'Instance' => 'cmult7',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult7'
+  },
+  'Line_9255' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/cmult8',
+    'Instance' => 'cmult8',
+    'SimulinkInstance' => 'waveform/proposal_sq08/CMult8'
+  },
+  'Line_9267' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Mux'
+  },
+  'Line_9276' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/mux1',
+    'Instance' => 'mux1',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Mux1'
+  },
+  'Line_9285' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/mux2',
+    'Instance' => 'mux2',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Mux2'
+  },
+  'Line_9294' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/scale1',
+    'Instance' => 'scale1',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Scale1'
+  },
+  'Line_9301' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Scale2'
+  },
+  'Line_9308' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/scale3',
+    'Instance' => 'scale3',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Scale3'
+  },
+  'Line_9315' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/scale4',
+    'Instance' => 'scale4',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Scale4'
+  },
+  'Line_9328' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/slice1',
+    'Instance' => 'slice1',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Slice1'
+  },
+  'Line_9338' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/slice2',
+    'Instance' => 'slice2',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Slice2'
+  },
+  'Line_934' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom13',
+    'Instance' => 'rom13',
+    'SimulinkInstance' => 'waveform/pca10/ROM13'
+  },
+  'Line_9348' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/slice3',
+    'Instance' => 'slice3',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Slice3'
+  },
+  'Line_9358' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/slice4',
+    'Instance' => 'slice4',
+    'SimulinkInstance' => 'waveform/proposal_sq08/Slice4'
+  },
+  'Line_9362' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs1',
+    'Instance' => 'abs1',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs1'
+  },
+  'Line_9369' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs2',
+    'Instance' => 'abs2',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs2'
+  },
+  'Line_9376' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs3',
+    'Instance' => 'abs3',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs3'
+  },
+  'Line_9383' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs4',
+    'Instance' => 'abs4',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs4'
+  },
+  'Line_9390' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs5',
+    'Instance' => 'abs5',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs5'
+  },
+  'Line_9397' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs6',
+    'Instance' => 'abs6',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs6'
+  },
+  'Line_9404' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs7',
+    'Instance' => 'abs7',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs7'
+  },
+  'Line_9411' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/abs8',
+    'Instance' => 'abs8',
+    'SimulinkInstance' => 'waveform/proposal_sq08/abs8'
+  },
+  'Line_9439' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub1'
+  },
+  'Line_9469' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub10',
+    'Instance' => 'addsub10',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub10'
+  },
+  'Line_948' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom14',
+    'Instance' => 'rom14',
+    'SimulinkInstance' => 'waveform/pca10/ROM14'
+  },
+  'Line_9499' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub2'
+  },
+  'Line_9529' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub3'
+  },
+  'Line_9559' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub4'
+  },
+  'Line_9589' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub5'
+  },
+  'Line_9619' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub6',
+    'Instance' => 'addsub6',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub6'
+  },
+  'Line_962' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom15',
+    'Instance' => 'rom15',
+    'SimulinkInstance' => 'waveform/pca10/ROM15'
+  },
+  'Line_9649' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub7',
+    'Instance' => 'addsub7',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub7'
+  },
+  'Line_9679' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub8',
+    'Instance' => 'addsub8',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub8'
+  },
+  'Line_9709' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/addsub9',
+    'Instance' => 'addsub9',
+    'SimulinkInstance' => 'waveform/proposal_sq08/addsub9'
+  },
+  'Line_9718' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/bool1',
+    'Instance' => 'bool1',
+    'SimulinkInstance' => 'waveform/proposal_sq08/bool1'
+  },
+  'Line_9726' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/bool2',
+    'Instance' => 'bool2',
+    'SimulinkInstance' => 'waveform/proposal_sq08/bool2'
+  },
+  'Line_9734' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08/bool3',
+    'Instance' => 'bool3',
+    'SimulinkInstance' => 'waveform/proposal_sq08/bool3'
+  },
+  'Line_976' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom16',
+    'Instance' => 'rom16',
+    'SimulinkInstance' => 'waveform/pca10/ROM16'
+  },
+  'Line_9825' => {
+    'CodeInstance' => 'waveform_struct/cordic_max',
+    'Instance' => 'cordic_max',
+    'SimulinkInstance' => 'waveform/cordic_max'
+  },
+  'Line_9832' => {
+    'CodeInstance' => 'waveform_struct/cordic_nop',
+    'Instance' => 'cordic_nop',
+    'SimulinkInstance' => 'waveform/cordic_nop'
+  },
+  'Line_9839' => {
+    'CodeInstance' => 'waveform_struct/cordic_opt',
+    'Instance' => 'cordic_opt',
+    'SimulinkInstance' => 'waveform/cordic_opt'
+  },
+  'Line_9846' => {
+    'CodeInstance' => 'waveform_struct/pca10',
+    'Instance' => 'pca10',
+    'SimulinkInstance' => 'waveform/pca10'
+  },
+  'Line_9853' => {
+    'CodeInstance' => 'waveform_struct/pca50',
+    'Instance' => 'pca50',
+    'SimulinkInstance' => 'waveform/pca50'
+  },
+  'Line_9860' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq04',
+    'Instance' => 'proposal_sq04',
+    'SimulinkInstance' => 'waveform/proposal_sq04'
+  },
+  'Line_9867' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq06',
+    'Instance' => 'proposal_sq06',
+    'SimulinkInstance' => 'waveform/proposal_sq06'
+  },
+  'Line_9874' => {
+    'CodeInstance' => 'waveform_struct/proposal_sq08',
+    'Instance' => 'proposal_sq08',
+    'SimulinkInstance' => 'waveform/proposal_sq08'
+  },
+  'Line_9895' => {
+    'CodeInstance' => 'waveform_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_990' => {
+    'CodeInstance' => 'waveform_struct/pca10/rom2',
+    'Instance' => 'rom2',
+    'SimulinkInstance' => 'waveform/pca10/ROM2'
+  },
+  'Line_9935' => {
+    'CodeInstance' => 'waveform_default_clock_driver',
+    'Instance' => 'waveform_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_9942' => {
+    'CodeInstance' => 'waveform_struct',
+    'Instance' => 'waveform_struct',
+    'SimulinkInstance' => 'waveform'
+  }
+}

@@ -1,0 +1,51 @@
+`timescale 1 ns / 10 ps
+// Generated from Simulink block 
+module abssq04alg_fixpt8_32_stub (
+  input [20-1:0] gate_in1_x5,
+  input [20-1:0] gate_in2,
+  input [21-1:0] gate_in1_x0,
+  input [21-1:0] gate_in2_x0,
+  input [22-1:0] gate_in1_x1,
+  input [22-1:0] gate_in2_x1,
+  input [23-1:0] gate_in1_x2,
+  input [23-1:0] gate_in2_x2,
+  input [24-1:0] gate_in1,
+  input [24-1:0] gate_in2_x3,
+  input [25-1:0] gate_in1_x3,
+  input [25-1:0] gate_in2_x4,
+  input [26-1:0] gate_in1_x4,
+  input [26-1:0] gate_in2_x5,
+  input clk,
+  output [20-1:0] gate_out1,
+  output [21-1:0] gate_out1_x0,
+  output [22-1:0] gate_out1_x1,
+  output [23-1:0] gate_out1_x2,
+  output [24-1:0] gate_out1_x3,
+  output [25-1:0] gate_out1_x4,
+  output [26-1:0] gate_out1_x5
+);
+  abssq04alg_fixpt8_32 sysgen_dut (
+    .gate_in1_x5(gate_in1_x5),
+    .gate_in2(gate_in2),
+    .gate_in1_x0(gate_in1_x0),
+    .gate_in2_x0(gate_in2_x0),
+    .gate_in1_x1(gate_in1_x1),
+    .gate_in2_x1(gate_in2_x1),
+    .gate_in1_x2(gate_in1_x2),
+    .gate_in2_x2(gate_in2_x2),
+    .gate_in1(gate_in1),
+    .gate_in2_x3(gate_in2_x3),
+    .gate_in1_x3(gate_in1_x3),
+    .gate_in2_x4(gate_in2_x4),
+    .gate_in1_x4(gate_in1_x4),
+    .gate_in2_x5(gate_in2_x5),
+    .clk(clk),
+    .gate_out1(gate_out1),
+    .gate_out1_x0(gate_out1_x0),
+    .gate_out1_x1(gate_out1_x1),
+    .gate_out1_x2(gate_out1_x2),
+    .gate_out1_x3(gate_out1_x3),
+    .gate_out1_x4(gate_out1_x4),
+    .gate_out1_x5(gate_out1_x5)
+  );
+endmodule

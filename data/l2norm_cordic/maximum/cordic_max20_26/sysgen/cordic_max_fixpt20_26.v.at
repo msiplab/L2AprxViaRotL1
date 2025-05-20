@@ -1,0 +1,232 @@
+{
+  'Line_102' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem20bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem20bit/Mult2'
+  },
+  'Line_1065' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem20bit',
+    'Instance' => 'subsystem20bit',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem20bit'
+  },
+  'Line_1072' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem21bit',
+    'Instance' => 'subsystem21bit',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem21bit'
+  },
+  'Line_1079' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem22bit',
+    'Instance' => 'subsystem22bit',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem22bit'
+  },
+  'Line_1086' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem23bit',
+    'Instance' => 'subsystem23bit',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem23bit'
+  },
+  'Line_1093' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem24bit',
+    'Instance' => 'subsystem24bit',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem24bit'
+  },
+  'Line_1100' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem25bit',
+    'Instance' => 'subsystem25bit',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem25bit'
+  },
+  'Line_1107' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem26bit',
+    'Instance' => 'subsystem26bit',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem26bit'
+  },
+  'Line_1188' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26',
+    'Instance' => 'total26',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26'
+  },
+  'Line_1227' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_1264' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_default_clock_driver',
+    'Instance' => 'cordic_max_fixpt20_26_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_1271' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct',
+    'Instance' => 'cordic_max_fixpt20_26_struct',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26'
+  },
+  'Line_136' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem20bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem20bit/addsub1'
+  },
+  'Line_170' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem21bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem21bit/CORDIC16'
+  },
+  'Line_178' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem21bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem21bit/Constant'
+  },
+  'Line_207' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem21bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem21bit/Mult1'
+  },
+  'Line_243' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem21bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem21bit/Mult2'
+  },
+  'Line_277' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem21bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem21bit/addsub1'
+  },
+  'Line_29' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem20bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem20bit/CORDIC16'
+  },
+  'Line_311' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem22bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem22bit/CORDIC16'
+  },
+  'Line_319' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem22bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem22bit/Constant'
+  },
+  'Line_348' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem22bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem22bit/Mult1'
+  },
+  'Line_37' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem20bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem20bit/Constant'
+  },
+  'Line_384' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem22bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem22bit/Mult2'
+  },
+  'Line_418' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem22bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem22bit/addsub1'
+  },
+  'Line_452' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem23bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem23bit/CORDIC16'
+  },
+  'Line_460' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem23bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem23bit/Constant'
+  },
+  'Line_489' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem23bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem23bit/Mult1'
+  },
+  'Line_525' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem23bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem23bit/Mult2'
+  },
+  'Line_559' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem23bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem23bit/addsub1'
+  },
+  'Line_593' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem24bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem24bit/CORDIC16'
+  },
+  'Line_601' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem24bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem24bit/Constant'
+  },
+  'Line_630' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem24bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem24bit/Mult1'
+  },
+  'Line_66' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem20bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem20bit/Mult1'
+  },
+  'Line_666' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem24bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem24bit/Mult2'
+  },
+  'Line_700' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem24bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem24bit/addsub1'
+  },
+  'Line_734' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem25bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem25bit/CORDIC16'
+  },
+  'Line_742' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem25bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem25bit/Constant'
+  },
+  'Line_771' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem25bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem25bit/Mult1'
+  },
+  'Line_807' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem25bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem25bit/Mult2'
+  },
+  'Line_841' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem25bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem25bit/addsub1'
+  },
+  'Line_875' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem26bit/cordic16',
+    'Instance' => 'cordic16',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem26bit/CORDIC16'
+  },
+  'Line_883' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem26bit/constant',
+    'Instance' => 'constant',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem26bit/Constant'
+  },
+  'Line_912' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem26bit/mult1',
+    'Instance' => 'mult1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem26bit/Mult1'
+  },
+  'Line_948' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem26bit/mult2',
+    'Instance' => 'mult2',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem26bit/Mult2'
+  },
+  'Line_982' => {
+    'CodeInstance' => 'cordic_max_fixpt20_26_struct/total26/subsystem26bit/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'cordic_max_fixpt20_26/total26/Subsystem26bit/addsub1'
+  }
+}
