@@ -56,7 +56,9 @@ codegen/
 *.cache/
 *.runs/
 *.sim/
+*.gen/
+*.srcs/
 *.ip_user_files/
-.hw/
+*.hw/
 .webtalk/
 .Xil/
